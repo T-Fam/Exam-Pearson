@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WAEC Admin Panel</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/admin.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.43.4/dist/module.js"></script>
+  <script>
+    window.WAEC_CONFIG = {
+      SUPABASE_URL: "https://exybakvrdouocjwcdrvs.supabase.co",
+      SUPABASE_ANON_KEY: "sb_publishable_2SOHqvS-IqLnlf8GNbuX4w_8_a1u3L5"
+    };
+  </script>
+</head>
+<body data-theme="light">
+  <!-- Admin Login (shown if not authenticated) -->
+  <section id="adminLogin" class="admin-login-section">
+    <div class="admin-login-card">
+      <h1>WAEC Admin Panel</h1>
+      <p class="sub">Enter admin credentials to access the dashboard</p>
+
+      <form id="adminLoginForm">
+        <label for="adminUsername">Admin Username</label>
+        <input
+          id="adminUsername"
+          type="text"
+          placeholder="e.g., admin"
+          autocomplete="username"
+          required
+        />
+
+        <label for="adminPassword">Admin Password</label>
+        <input
+          id="adminPassword"
+          type="password"
+          placeholder="••••••••"
+          autocomplete="current-password"
+          required
+        />
+
+        <div id="adminLoginError" class="admin-error hidden"></div>
+
+        <button class="btn btn-primary" type="submit" style="width: 100%;">
+          Log in to Admin Panel
+        </button>
+      </form>
+
+      <p class="sub" style="margin-top: 20px; text-align: center;">
+        ⚠️ Keep your admin credentials secure
+      </p>
+    </div>
+  </section>
+
+  <!-- Admin Panel (shown if authenticated) -->
+  <div id="adminPanel" class="admin-panel hidden">
+    <!-- Admin Header -->
+    <header class="admin-header">
+      <div class="admin-header-left">
+        <h1>📊 WAEC Admin Dashboard</h1>
+      </div>
+      <div class="admin-header-right">
+        <span id="adminUsername" class="admin-username"></span>
+        <button id="adminLogoutBtn" class="btn btn-secondary btn-sm">
+          Log out
+        </button>
+      </div>
+    </header>
+
+    <!-- Admin Navigation -->
+    <nav class="admin-nav">
+      <button class="admin-nav-btn active" data-view="overview">
+        📈 Overview
+      </button>
+      <button class="admin-nav-btn" data-view="users">
+        👥 Users
+      </button>
+      <button class="admin-nav-btn" data-view="reports">
+        📋 Reports
+      </button>
+    </nav>
+
+    <!-- Admin Content -->
+    <main class="admin-content">
+      <!-- Overview Section -->
+      <section id="admin-overview" class="admin-section">
+        <p class="loading">Loading dashboard data...</p>
+      </section>
+
+      <!-- Users Section -->
+      <section id="admin-users" class="admin-section hidden">
+        <p class="loading">Loading users...</p>
+      </section>
+
+      <!-- Reports Section -->
+      <section id="admin-reports" class="admin-section hidden">
+        <p class="loading">Loading reports...</p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="admin-footer">
+      <p>
+        WAEC Practice Admin Panel • Last updated
+        <span id="lastUpdate">never</span>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/db-client.js"></script>
+  <script src="js/admin-auth.js"></script>
+  <script src="js/admin-dashboard.js"></script>
+
+  <script>
+    // Update "last updated" time
+    setInterval(() => {
+      const el = document.getElementById("lastUpdate");
+      if (el) el.textContent = new Date().toLocaleTimeString();
+    }, 1000);
+
+    // Show admin username
+    document.addEventListener("DOMContentLoaded", () => {
+      const admin = window.WAECAdminAuth?.currentAdmin();
+      if (admin) {
+        const el = document.getElementById("adminUsername");
+        if (el) el.textContent = `👤 ${admin.username}`;
+      }
+    });
+  </script>
+</body>
+</html>

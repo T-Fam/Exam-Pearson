@@ -20,6 +20,14 @@
   </script>
   <!-- Chart.js for dashboard graphs -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <!-- Supabase Database Configuration -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.43.4/dist/module.js"></script>
+  <script>
+    window.WAEC_CONFIG = {
+      SUPABASE_URL: "https://exybakvrdouocjwcdrvs.supabase.co",
+      SUPABASE_ANON_KEY: "sb_publishable_2SOHqvS-IqLnlf8GNbuX4w_8_a1u3L5"
+    };
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -353,7 +361,8 @@
   <script src="js/questions-loader.js"></script>
   <script src="js/bank/day_2026_04_20.js"></script>
   <script src="js/bank/day_2026_04_20_batch2.js"></script>
-  <script src="js/auth.js"></script>
+  <script src="js/db-client.js"></script>
+  <script src="js/auth-supabase.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/app.js"></script>
 </body>
