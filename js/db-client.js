@@ -33,7 +33,7 @@
     try {
       // Create auth user in Supabase
       const { data: authData, error: authError } = await supabaseClient.auth.signUp({
-        email: email || `${username}@waec-local.local`,
+        email: email || `${username}@waec.local`,
         password
       });
 
@@ -68,7 +68,7 @@
 
     try {
       // Login with email or username
-      const loginEmail = email || `${username}@waec-local.local`;
+      const loginEmail = email || `${username}@waec.local`;
       const { data, error } = await supabaseClient.auth.signInWithPassword({
         email: loginEmail,
         password
