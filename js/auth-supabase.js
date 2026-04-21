@@ -69,7 +69,7 @@
     if (!name) throw new Error("Please enter your name.");
     if (!/^[a-z0-9_.-]{3,24}$/.test(username))
       throw new Error("Username must be 3–24 chars (letters, numbers, _ . -).");
-    if (password.length < 4) throw new Error("Password must be at least 4 characters.");
+    if (password.length < 6) throw new Error("Password must be at least 6 characters.");
 
     // Try database first
     if (useDatabase && window.WAECDatabase) {
