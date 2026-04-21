@@ -1,0 +1,852 @@
+[
+  {
+    "number": 1,
+    "question": "Explain the significance of parts of speech in Grammar.",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "parts of speech",
+    "description": "An analytical question requiring explanation of parts of speech.",
+    "difficulty": "basic",
+    "options": [
+      "Parts Of Speech",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 2,
+    "question": "What is the relationship between Grammar and tenses?",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "tenses",
+    "description": "A comparative question linking Grammar and tenses.",
+    "difficulty": "basic",
+    "options": [
+      "Tenses",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 3,
+    "question": "How does clauses affect Grammar?",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "clauses",
+    "description": "A cause-and-effect question about clauses and Grammar.",
+    "difficulty": "basic",
+    "options": [
+      "Clauses",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 4,
+    "question": "Identify three key characteristics of phrases.",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "phrases",
+    "description": "A question requiring identification in Grammar.",
+    "difficulty": "basic",
+    "options": [
+      "Phrases",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 5,
+    "question": "Describe the process of agreement in Grammar.",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "agreement",
+    "description": "A descriptive question about agreement.",
+    "difficulty": "basic",
+    "options": [
+      "Agreement",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 6,
+    "question": "What are the main causes of articles?",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "articles",
+    "description": "A question about causation related to articles.",
+    "difficulty": "basic",
+    "options": [
+      "Articles",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 7,
+    "question": "Compare and contrast prepositions with related concepts.",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "prepositions",
+    "description": "A comparative analysis question on prepositions.",
+    "difficulty": "basic",
+    "options": [
+      "Prepositions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 8,
+    "question": "Analyze the impact of conjunctions on Grammar.",
+    "subject": "grammar",
+    "date": "2026-04-21",
+    "topic": "Grammar",
+    "subtopic": "conjunctions",
+    "description": "A critical analysis question about conjunctions.",
+    "difficulty": "basic",
+    "options": [
+      "Conjunctions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 9,
+    "question": "Define synonyms and provide an example from Vocabulary.",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "synonyms",
+    "description": "A definition and example question.",
+    "difficulty": "basic",
+    "options": [
+      "Synonyms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 10,
+    "question": "How has antonyms evolved within Vocabulary?",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "antonyms",
+    "description": "A historical perspective question on antonyms.",
+    "difficulty": "basic",
+    "options": [
+      "Antonyms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 11,
+    "question": "What are the limitations of word families in Vocabulary?",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "word families",
+    "description": "A critical examination of word families's limitations.",
+    "difficulty": "basic",
+    "options": [
+      "Word Families",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 12,
+    "question": "Evaluate the importance of idioms in Vocabulary.",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "idioms",
+    "description": "A question evaluating the importance of idioms.",
+    "difficulty": "basic",
+    "options": [
+      "Idioms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 13,
+    "question": "Which factors influence collocations?",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "collocations",
+    "description": "A question about factors affecting collocations.",
+    "difficulty": "basic",
+    "options": [
+      "Collocations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 14,
+    "question": "How do scientists/scholars use context clues in Vocabulary?",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "context clues",
+    "description": "A practical application question about context clues.",
+    "difficulty": "basic",
+    "options": [
+      "Context Clues",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 15,
+    "question": "Which of the following best describes prefixes?",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "prefixes",
+    "description": "A well-structured question about prefixes.",
+    "difficulty": "basic",
+    "options": [
+      "Prefixes",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 16,
+    "question": "Explain the significance of suffixes in Vocabulary.",
+    "subject": "vocabulary",
+    "date": "2026-04-21",
+    "topic": "Vocabulary",
+    "subtopic": "suffixes",
+    "description": "An analytical question requiring explanation of suffixes.",
+    "difficulty": "basic",
+    "options": [
+      "Suffixes",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 17,
+    "question": "What is the relationship between Comprehension and main idea?",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "main idea",
+    "description": "A comparative question linking Comprehension and main idea.",
+    "difficulty": "intermediate",
+    "options": [
+      "Main Idea",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 18,
+    "question": "How does supporting details affect Comprehension?",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "supporting details",
+    "description": "A cause-and-effect question about supporting details and Comprehension.",
+    "difficulty": "intermediate",
+    "options": [
+      "Supporting Details",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 19,
+    "question": "Identify three key characteristics of inference.",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "inference",
+    "description": "A question requiring identification in Comprehension.",
+    "difficulty": "intermediate",
+    "options": [
+      "Inference",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 20,
+    "question": "Describe the process of author's purpose in Comprehension.",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "author's purpose",
+    "description": "A descriptive question about author's purpose.",
+    "difficulty": "intermediate",
+    "options": [
+      "Author'S Purpose",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 21,
+    "question": "What are the main causes of tone?",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "tone",
+    "description": "A question about causation related to tone.",
+    "difficulty": "intermediate",
+    "options": [
+      "Tone",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 22,
+    "question": "Compare and contrast bias with related concepts.",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "bias",
+    "description": "A comparative analysis question on bias.",
+    "difficulty": "intermediate",
+    "options": [
+      "Bias",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 23,
+    "question": "Analyze the impact of credibility on Comprehension.",
+    "subject": "comprehension",
+    "date": "2026-04-21",
+    "topic": "Comprehension",
+    "subtopic": "credibility",
+    "description": "A critical analysis question about credibility.",
+    "difficulty": "intermediate",
+    "options": [
+      "Credibility",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 24,
+    "question": "Define organization and provide an example from Writing.",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "organization",
+    "description": "A definition and example question.",
+    "difficulty": "intermediate",
+    "options": [
+      "Organization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 25,
+    "question": "How has thesis statement evolved within Writing?",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "thesis statement",
+    "description": "A historical perspective question on thesis statement.",
+    "difficulty": "intermediate",
+    "options": [
+      "Thesis Statement",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 26,
+    "question": "What are the limitations of paragraph development in Writing?",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "paragraph development",
+    "description": "A critical examination of paragraph development's limitations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Paragraph Development",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 27,
+    "question": "Evaluate the importance of transitions in Writing.",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "transitions",
+    "description": "A question evaluating the importance of transitions.",
+    "difficulty": "intermediate",
+    "options": [
+      "Transitions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 28,
+    "question": "Which factors influence grammar?",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "grammar",
+    "description": "A question about factors affecting grammar.",
+    "difficulty": "intermediate",
+    "options": [
+      "Grammar",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 29,
+    "question": "How do scientists/scholars use punctuation in Writing?",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "punctuation",
+    "description": "A practical application question about punctuation.",
+    "difficulty": "intermediate",
+    "options": [
+      "Punctuation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 30,
+    "question": "Which of the following best describes style?",
+    "subject": "writing",
+    "date": "2026-04-21",
+    "topic": "Writing",
+    "subtopic": "style",
+    "description": "A well-structured question about style.",
+    "difficulty": "intermediate",
+    "options": [
+      "Style",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 31,
+    "question": "Explain the significance of poetry in Literature.",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "poetry",
+    "description": "An analytical question requiring explanation of poetry.",
+    "difficulty": "intermediate",
+    "options": [
+      "Poetry",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 32,
+    "question": "What is the relationship between Literature and drama?",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "drama",
+    "description": "A comparative question linking Literature and drama.",
+    "difficulty": "intermediate",
+    "options": [
+      "Drama",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 33,
+    "question": "How does fiction affect Literature?",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "fiction",
+    "description": "A cause-and-effect question about fiction and Literature.",
+    "difficulty": "intermediate",
+    "options": [
+      "Fiction",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 34,
+    "question": "Identify three key characteristics of nonfiction.",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "nonfiction",
+    "description": "A question requiring identification in Literature.",
+    "difficulty": "advanced",
+    "options": [
+      "Nonfiction",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 35,
+    "question": "Describe the process of characterization in Literature.",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "characterization",
+    "description": "A descriptive question about characterization.",
+    "difficulty": "advanced",
+    "options": [
+      "Characterization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 36,
+    "question": "What are the main causes of plot?",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "plot",
+    "description": "A question about causation related to plot.",
+    "difficulty": "advanced",
+    "options": [
+      "Plot",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 37,
+    "question": "Compare and contrast theme with related concepts.",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "theme",
+    "description": "A comparative analysis question on theme.",
+    "difficulty": "advanced",
+    "options": [
+      "Theme",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 38,
+    "question": "Analyze the impact of symbolism on Literature.",
+    "subject": "literature",
+    "date": "2026-04-21",
+    "topic": "Literature",
+    "subtopic": "symbolism",
+    "description": "A critical analysis question about symbolism.",
+    "difficulty": "advanced",
+    "options": [
+      "Symbolism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 39,
+    "question": "Define pronunciation and provide an example from Speaking.",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "pronunciation",
+    "description": "A definition and example question.",
+    "difficulty": "advanced",
+    "options": [
+      "Pronunciation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 40,
+    "question": "How has intonation evolved within Speaking?",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "intonation",
+    "description": "A historical perspective question on intonation.",
+    "difficulty": "advanced",
+    "options": [
+      "Intonation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 41,
+    "question": "What are the limitations of fluency in Speaking?",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "fluency",
+    "description": "A critical examination of fluency's limitations.",
+    "difficulty": "advanced",
+    "options": [
+      "Fluency",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 42,
+    "question": "Evaluate the importance of accuracy in Speaking.",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "accuracy",
+    "description": "A question evaluating the importance of accuracy.",
+    "difficulty": "advanced",
+    "options": [
+      "Accuracy",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 43,
+    "question": "Which factors influence presentation?",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "presentation",
+    "description": "A question about factors affecting presentation.",
+    "difficulty": "advanced",
+    "options": [
+      "Presentation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 44,
+    "question": "How do scientists/scholars use discussion in Speaking?",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "discussion",
+    "description": "A practical application question about discussion.",
+    "difficulty": "advanced",
+    "options": [
+      "Discussion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 45,
+    "question": "Which of the following best describes persuasion?",
+    "subject": "speaking",
+    "date": "2026-04-21",
+    "topic": "Speaking",
+    "subtopic": "persuasion",
+    "description": "A well-structured question about persuasion.",
+    "difficulty": "advanced",
+    "options": [
+      "Persuasion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 46,
+    "question": "Explain the significance of comprehension in Listening.",
+    "subject": "listening",
+    "date": "2026-04-21",
+    "topic": "Listening",
+    "subtopic": "comprehension",
+    "description": "An analytical question requiring explanation of comprehension.",
+    "difficulty": "advanced",
+    "options": [
+      "Comprehension",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 47,
+    "question": "What is the relationship between Listening and note-taking?",
+    "subject": "listening",
+    "date": "2026-04-21",
+    "topic": "Listening",
+    "subtopic": "note-taking",
+    "description": "A comparative question linking Listening and note-taking.",
+    "difficulty": "advanced",
+    "options": [
+      "Note-Taking",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 48,
+    "question": "How does inference affect Listening?",
+    "subject": "listening",
+    "date": "2026-04-21",
+    "topic": "Listening",
+    "subtopic": "inference",
+    "description": "A cause-and-effect question about inference and Listening.",
+    "difficulty": "advanced",
+    "options": [
+      "Inference",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 49,
+    "question": "Identify three key characteristics of active listening.",
+    "subject": "listening",
+    "date": "2026-04-21",
+    "topic": "Listening",
+    "subtopic": "active listening",
+    "description": "A question requiring identification in Listening.",
+    "difficulty": "advanced",
+    "options": [
+      "Active Listening",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 50,
+    "question": "Describe the process of distinguishing fact and opinion in Listening.",
+    "subject": "listening",
+    "date": "2026-04-21",
+    "topic": "Listening",
+    "subtopic": "distinguishing fact and opinion",
+    "description": "A descriptive question about distinguishing fact and opinion.",
+    "difficulty": "advanced",
+    "options": [
+      "Distinguishing Fact And Opinion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  }
+]

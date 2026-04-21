@@ -1,0 +1,3 @@
+Store Management
+
+Covers stores organization, stock control, stores records, warehousing, and supply chain fundamentals.

@@ -1,0 +1,852 @@
+[
+  {
+    "number": 1,
+    "question": "Explain the significance of landforms in Physical geography.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "landforms",
+    "description": "An analytical question requiring explanation of landforms.",
+    "difficulty": "basic",
+    "options": [
+      "Landforms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 2,
+    "question": "What is the relationship between Physical geography and climate?",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "climate",
+    "description": "A comparative question linking Physical geography and climate.",
+    "difficulty": "basic",
+    "options": [
+      "Climate",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 3,
+    "question": "How does vegetation affect Physical geography?",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "vegetation",
+    "description": "A cause-and-effect question about vegetation and Physical geography.",
+    "difficulty": "basic",
+    "options": [
+      "Vegetation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 4,
+    "question": "Identify three key characteristics of soil.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "soil",
+    "description": "A question requiring identification in Physical geography.",
+    "difficulty": "basic",
+    "options": [
+      "Soil",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 5,
+    "question": "Describe the process of water systems in Physical geography.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "water systems",
+    "description": "A descriptive question about water systems.",
+    "difficulty": "basic",
+    "options": [
+      "Water Systems",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 6,
+    "question": "What are the main causes of plate tectonics?",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "plate tectonics",
+    "description": "A question about causation related to plate tectonics.",
+    "difficulty": "basic",
+    "options": [
+      "Plate Tectonics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 7,
+    "question": "Compare and contrast weathering with related concepts.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "weathering",
+    "description": "A comparative analysis question on weathering.",
+    "difficulty": "basic",
+    "options": [
+      "Weathering",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 8,
+    "question": "Analyze the impact of erosion on Physical geography.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "erosion",
+    "description": "A critical analysis question about erosion.",
+    "difficulty": "basic",
+    "options": [
+      "Erosion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 9,
+    "question": "Define population and provide an example from Human geography.",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "population",
+    "description": "A definition and example question.",
+    "difficulty": "basic",
+    "options": [
+      "Population",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 10,
+    "question": "How has culture evolved within Human geography?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "culture",
+    "description": "A historical perspective question on culture.",
+    "difficulty": "basic",
+    "options": [
+      "Culture",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 11,
+    "question": "What are the limitations of language in Human geography?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "language",
+    "description": "A critical examination of language's limitations.",
+    "difficulty": "basic",
+    "options": [
+      "Language",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 12,
+    "question": "Evaluate the importance of religion in Human geography.",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "religion",
+    "description": "A question evaluating the importance of religion.",
+    "difficulty": "basic",
+    "options": [
+      "Religion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 13,
+    "question": "Which factors influence urbanization?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "urbanization",
+    "description": "A question about factors affecting urbanization.",
+    "difficulty": "basic",
+    "options": [
+      "Urbanization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 14,
+    "question": "How do scientists/scholars use migration in Human geography?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "migration",
+    "description": "A practical application question about migration.",
+    "difficulty": "basic",
+    "options": [
+      "Migration",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 15,
+    "question": "Which of the following best describes settlements?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "settlements",
+    "description": "A well-structured question about settlements.",
+    "difficulty": "basic",
+    "options": [
+      "Settlements",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 16,
+    "question": "Explain the significance of biodiversity in Environmental geography.",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "biodiversity",
+    "description": "An analytical question requiring explanation of biodiversity.",
+    "difficulty": "basic",
+    "options": [
+      "Biodiversity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 17,
+    "question": "What is the relationship between Environmental geography and conservation?",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "conservation",
+    "description": "A comparative question linking Environmental geography and conservation.",
+    "difficulty": "intermediate",
+    "options": [
+      "Conservation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 18,
+    "question": "How does sustainability affect Environmental geography?",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "sustainability",
+    "description": "A cause-and-effect question about sustainability and Environmental geography.",
+    "difficulty": "intermediate",
+    "options": [
+      "Sustainability",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 19,
+    "question": "Identify three key characteristics of pollution.",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "pollution",
+    "description": "A question requiring identification in Environmental geography.",
+    "difficulty": "intermediate",
+    "options": [
+      "Pollution",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 20,
+    "question": "Describe the process of climate change in Environmental geography.",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "climate change",
+    "description": "A descriptive question about climate change.",
+    "difficulty": "intermediate",
+    "options": [
+      "Climate Change",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 21,
+    "question": "What are the main causes of natural disasters?",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "natural disasters",
+    "description": "A question about causation related to natural disasters.",
+    "difficulty": "intermediate",
+    "options": [
+      "Natural Disasters",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 22,
+    "question": "Compare and contrast agriculture with related concepts.",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "agriculture",
+    "description": "A comparative analysis question on agriculture.",
+    "difficulty": "intermediate",
+    "options": [
+      "Agriculture",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 23,
+    "question": "Analyze the impact of industry on Economic geography.",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "industry",
+    "description": "A critical analysis question about industry.",
+    "difficulty": "intermediate",
+    "options": [
+      "Industry",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 24,
+    "question": "Define services and provide an example from Economic geography.",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "services",
+    "description": "A definition and example question.",
+    "difficulty": "intermediate",
+    "options": [
+      "Services",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 25,
+    "question": "How has trade evolved within Economic geography?",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "trade",
+    "description": "A historical perspective question on trade.",
+    "difficulty": "intermediate",
+    "options": [
+      "Trade",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 26,
+    "question": "What are the limitations of resources in Economic geography?",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "resources",
+    "description": "A critical examination of resources's limitations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Resources",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 27,
+    "question": "Evaluate the importance of development in Economic geography.",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "development",
+    "description": "A question evaluating the importance of development.",
+    "difficulty": "intermediate",
+    "options": [
+      "Development",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 28,
+    "question": "Which factors influence boundaries?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "boundaries",
+    "description": "A question about factors affecting boundaries.",
+    "difficulty": "intermediate",
+    "options": [
+      "Boundaries",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 29,
+    "question": "How do scientists/scholars use geopolitics in Political geography?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "geopolitics",
+    "description": "A practical application question about geopolitics.",
+    "difficulty": "intermediate",
+    "options": [
+      "Geopolitics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 30,
+    "question": "Which of the following best describes states?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "states",
+    "description": "A well-structured question about states.",
+    "difficulty": "intermediate",
+    "options": [
+      "States",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 31,
+    "question": "Explain the significance of regions in Political geography.",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "regions",
+    "description": "An analytical question requiring explanation of regions.",
+    "difficulty": "intermediate",
+    "options": [
+      "Regions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 32,
+    "question": "What is the relationship between Political geography and sovereignty?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "sovereignty",
+    "description": "A comparative question linking Political geography and sovereignty.",
+    "difficulty": "intermediate",
+    "options": [
+      "Sovereignty",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 33,
+    "question": "How does conflicts affect Political geography?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "conflicts",
+    "description": "A cause-and-effect question about conflicts and Political geography.",
+    "difficulty": "intermediate",
+    "options": [
+      "Conflicts",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 34,
+    "question": "Identify three key characteristics of landforms.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "landforms",
+    "description": "A question requiring identification in Physical geography.",
+    "difficulty": "advanced",
+    "options": [
+      "Landforms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 35,
+    "question": "Describe the process of population in Human geography.",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "population",
+    "description": "A descriptive question about population.",
+    "difficulty": "advanced",
+    "options": [
+      "Population",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 36,
+    "question": "What are the main causes of biodiversity?",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "biodiversity",
+    "description": "A question about causation related to biodiversity.",
+    "difficulty": "advanced",
+    "options": [
+      "Biodiversity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 37,
+    "question": "Compare and contrast agriculture with related concepts.",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "agriculture",
+    "description": "A comparative analysis question on agriculture.",
+    "difficulty": "advanced",
+    "options": [
+      "Agriculture",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 38,
+    "question": "Analyze the impact of boundaries on Political geography.",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "boundaries",
+    "description": "A critical analysis question about boundaries.",
+    "difficulty": "advanced",
+    "options": [
+      "Boundaries",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 39,
+    "question": "Define climate and provide an example from Physical geography.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "climate",
+    "description": "A definition and example question.",
+    "difficulty": "advanced",
+    "options": [
+      "Climate",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 40,
+    "question": "How has culture evolved within Human geography?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "culture",
+    "description": "A historical perspective question on culture.",
+    "difficulty": "advanced",
+    "options": [
+      "Culture",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 41,
+    "question": "What are the limitations of conservation in Environmental geography?",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "conservation",
+    "description": "A critical examination of conservation's limitations.",
+    "difficulty": "advanced",
+    "options": [
+      "Conservation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 42,
+    "question": "Evaluate the importance of industry in Economic geography.",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "industry",
+    "description": "A question evaluating the importance of industry.",
+    "difficulty": "advanced",
+    "options": [
+      "Industry",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 43,
+    "question": "Which factors influence geopolitics?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "geopolitics",
+    "description": "A question about factors affecting geopolitics.",
+    "difficulty": "advanced",
+    "options": [
+      "Geopolitics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 44,
+    "question": "How do scientists/scholars use vegetation in Physical geography?",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "vegetation",
+    "description": "A practical application question about vegetation.",
+    "difficulty": "advanced",
+    "options": [
+      "Vegetation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 45,
+    "question": "Which of the following best describes language?",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "language",
+    "description": "A well-structured question about language.",
+    "difficulty": "advanced",
+    "options": [
+      "Language",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 46,
+    "question": "Explain the significance of sustainability in Environmental geography.",
+    "subject": "environmental_geography",
+    "date": "2026-04-21",
+    "topic": "Environmental geography",
+    "subtopic": "sustainability",
+    "description": "An analytical question requiring explanation of sustainability.",
+    "difficulty": "advanced",
+    "options": [
+      "Sustainability",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 47,
+    "question": "What is the relationship between Economic geography and services?",
+    "subject": "economic_geography",
+    "date": "2026-04-21",
+    "topic": "Economic geography",
+    "subtopic": "services",
+    "description": "A comparative question linking Economic geography and services.",
+    "difficulty": "advanced",
+    "options": [
+      "Services",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 48,
+    "question": "How does states affect Political geography?",
+    "subject": "political_geography",
+    "date": "2026-04-21",
+    "topic": "Political geography",
+    "subtopic": "states",
+    "description": "A cause-and-effect question about states and Political geography.",
+    "difficulty": "advanced",
+    "options": [
+      "States",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 49,
+    "question": "Identify three key characteristics of soil.",
+    "subject": "physical_geography",
+    "date": "2026-04-21",
+    "topic": "Physical geography",
+    "subtopic": "soil",
+    "description": "A question requiring identification in Physical geography.",
+    "difficulty": "advanced",
+    "options": [
+      "Soil",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 50,
+    "question": "Describe the process of religion in Human geography.",
+    "subject": "human_geography",
+    "date": "2026-04-21",
+    "topic": "Human geography",
+    "subtopic": "religion",
+    "description": "A descriptive question about religion.",
+    "difficulty": "advanced",
+    "options": [
+      "Religion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  }
+]

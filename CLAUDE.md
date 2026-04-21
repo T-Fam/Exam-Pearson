@@ -1,0 +1,1 @@
+Each day, generate 50 questions for every subject. No question should ever repeat — neither within the same day nor across days.

@@ -1,0 +1,852 @@
+[
+  {
+    "number": 1,
+    "question": "Explain the significance of pre-colonial Africa in African history.",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "pre-colonial Africa",
+    "description": "An analytical question requiring explanation of pre-colonial Africa.",
+    "difficulty": "basic",
+    "options": [
+      "Pre-Colonial Africa",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 2,
+    "question": "What is the relationship between African history and colonialism?",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "colonialism",
+    "description": "A comparative question linking African history and colonialism.",
+    "difficulty": "basic",
+    "options": [
+      "Colonialism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 3,
+    "question": "How does independence movements affect African history?",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "independence movements",
+    "description": "A cause-and-effect question about independence movements and African history.",
+    "difficulty": "basic",
+    "options": [
+      "Independence Movements",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 4,
+    "question": "Identify three key characteristics of nationalism.",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "nationalism",
+    "description": "A question requiring identification in African history.",
+    "difficulty": "basic",
+    "options": [
+      "Nationalism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 5,
+    "question": "Describe the process of post-colonial development in African history.",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "post-colonial development",
+    "description": "A descriptive question about post-colonial development.",
+    "difficulty": "basic",
+    "options": [
+      "Post-Colonial Development",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 6,
+    "question": "What are the main causes of civilizations?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "civilizations",
+    "description": "A question about causation related to civilizations.",
+    "difficulty": "basic",
+    "options": [
+      "Civilizations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 7,
+    "question": "Compare and contrast empires with related concepts.",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "empires",
+    "description": "A comparative analysis question on empires.",
+    "difficulty": "basic",
+    "options": [
+      "Empires",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 8,
+    "question": "Analyze the impact of revolutions on World history.",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "revolutions",
+    "description": "A critical analysis question about revolutions.",
+    "difficulty": "basic",
+    "options": [
+      "Revolutions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 9,
+    "question": "Define wars and provide an example from World history.",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "wars",
+    "description": "A definition and example question.",
+    "difficulty": "basic",
+    "options": [
+      "Wars",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 10,
+    "question": "How has trade routes evolved within World history?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "trade routes",
+    "description": "A historical perspective question on trade routes.",
+    "difficulty": "basic",
+    "options": [
+      "Trade Routes",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 11,
+    "question": "What are the limitations of cultural exchanges in World history?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "cultural exchanges",
+    "description": "A critical examination of cultural exchanges's limitations.",
+    "difficulty": "basic",
+    "options": [
+      "Cultural Exchanges",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 12,
+    "question": "Evaluate the importance of feudalism in Medieval history.",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "feudalism",
+    "description": "A question evaluating the importance of feudalism.",
+    "difficulty": "basic",
+    "options": [
+      "Feudalism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 13,
+    "question": "Which factors influence kingdoms?",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "kingdoms",
+    "description": "A question about factors affecting kingdoms.",
+    "difficulty": "basic",
+    "options": [
+      "Kingdoms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 14,
+    "question": "How do scientists/scholars use crusades in Medieval history?",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "crusades",
+    "description": "A practical application question about crusades.",
+    "difficulty": "basic",
+    "options": [
+      "Crusades",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 15,
+    "question": "Which of the following best describes renaissance?",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "renaissance",
+    "description": "A well-structured question about renaissance.",
+    "difficulty": "basic",
+    "options": [
+      "Renaissance",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 16,
+    "question": "Explain the significance of reformation in Medieval history.",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "reformation",
+    "description": "An analytical question requiring explanation of reformation.",
+    "difficulty": "basic",
+    "options": [
+      "Reformation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 17,
+    "question": "What is the relationship between Modern history and industrialization?",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "industrialization",
+    "description": "A comparative question linking Modern history and industrialization.",
+    "difficulty": "intermediate",
+    "options": [
+      "Industrialization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 18,
+    "question": "How does nationalism affect Modern history?",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "nationalism",
+    "description": "A cause-and-effect question about nationalism and Modern history.",
+    "difficulty": "intermediate",
+    "options": [
+      "Nationalism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 19,
+    "question": "Identify three key characteristics of imperialism.",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "imperialism",
+    "description": "A question requiring identification in Modern history.",
+    "difficulty": "intermediate",
+    "options": [
+      "Imperialism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 20,
+    "question": "Describe the process of world wars in Modern history.",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "world wars",
+    "description": "A descriptive question about world wars.",
+    "difficulty": "intermediate",
+    "options": [
+      "World Wars",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 21,
+    "question": "What are the main causes of decolonization?",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "decolonization",
+    "description": "A question about causation related to decolonization.",
+    "difficulty": "intermediate",
+    "options": [
+      "Decolonization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 22,
+    "question": "Compare and contrast cold war with related concepts.",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "cold war",
+    "description": "A comparative analysis question on cold war.",
+    "difficulty": "intermediate",
+    "options": [
+      "Cold War",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 23,
+    "question": "Analyze the impact of globalization on Contemporary history.",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "globalization",
+    "description": "A critical analysis question about globalization.",
+    "difficulty": "intermediate",
+    "options": [
+      "Globalization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 24,
+    "question": "Define technology and provide an example from Contemporary history.",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "technology",
+    "description": "A definition and example question.",
+    "difficulty": "intermediate",
+    "options": [
+      "Technology",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 25,
+    "question": "How has terrorism evolved within Contemporary history?",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "terrorism",
+    "description": "A historical perspective question on terrorism.",
+    "difficulty": "intermediate",
+    "options": [
+      "Terrorism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 26,
+    "question": "What are the limitations of social movements in Contemporary history?",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "social movements",
+    "description": "A critical examination of social movements's limitations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Social Movements",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 27,
+    "question": "Evaluate the importance of pre-colonial Africa in African history.",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "pre-colonial Africa",
+    "description": "A question evaluating the importance of pre-colonial Africa.",
+    "difficulty": "intermediate",
+    "options": [
+      "Pre-Colonial Africa",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 28,
+    "question": "Which factors influence civilizations?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "civilizations",
+    "description": "A question about factors affecting civilizations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Civilizations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 29,
+    "question": "How do scientists/scholars use feudalism in Medieval history?",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "feudalism",
+    "description": "A practical application question about feudalism.",
+    "difficulty": "intermediate",
+    "options": [
+      "Feudalism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 30,
+    "question": "Which of the following best describes industrialization?",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "industrialization",
+    "description": "A well-structured question about industrialization.",
+    "difficulty": "intermediate",
+    "options": [
+      "Industrialization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 31,
+    "question": "Explain the significance of cold war in Contemporary history.",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "cold war",
+    "description": "An analytical question requiring explanation of cold war.",
+    "difficulty": "intermediate",
+    "options": [
+      "Cold War",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 32,
+    "question": "What is the relationship between African history and colonialism?",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "colonialism",
+    "description": "A comparative question linking African history and colonialism.",
+    "difficulty": "intermediate",
+    "options": [
+      "Colonialism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 33,
+    "question": "How does empires affect World history?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "empires",
+    "description": "A cause-and-effect question about empires and World history.",
+    "difficulty": "intermediate",
+    "options": [
+      "Empires",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 34,
+    "question": "Identify three key characteristics of kingdoms.",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "kingdoms",
+    "description": "A question requiring identification in Medieval history.",
+    "difficulty": "advanced",
+    "options": [
+      "Kingdoms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 35,
+    "question": "Describe the process of nationalism in Modern history.",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "nationalism",
+    "description": "A descriptive question about nationalism.",
+    "difficulty": "advanced",
+    "options": [
+      "Nationalism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 36,
+    "question": "What are the main causes of globalization?",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "globalization",
+    "description": "A question about causation related to globalization.",
+    "difficulty": "advanced",
+    "options": [
+      "Globalization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 37,
+    "question": "Compare and contrast independence movements with related concepts.",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "independence movements",
+    "description": "A comparative analysis question on independence movements.",
+    "difficulty": "advanced",
+    "options": [
+      "Independence Movements",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 38,
+    "question": "Analyze the impact of revolutions on World history.",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "revolutions",
+    "description": "A critical analysis question about revolutions.",
+    "difficulty": "advanced",
+    "options": [
+      "Revolutions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 39,
+    "question": "Define crusades and provide an example from Medieval history.",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "crusades",
+    "description": "A definition and example question.",
+    "difficulty": "advanced",
+    "options": [
+      "Crusades",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 40,
+    "question": "How has imperialism evolved within Modern history?",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "imperialism",
+    "description": "A historical perspective question on imperialism.",
+    "difficulty": "advanced",
+    "options": [
+      "Imperialism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 41,
+    "question": "What are the limitations of technology in Contemporary history?",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "technology",
+    "description": "A critical examination of technology's limitations.",
+    "difficulty": "advanced",
+    "options": [
+      "Technology",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 42,
+    "question": "Evaluate the importance of nationalism in African history.",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "nationalism",
+    "description": "A question evaluating the importance of nationalism.",
+    "difficulty": "advanced",
+    "options": [
+      "Nationalism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 43,
+    "question": "Which factors influence wars?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "wars",
+    "description": "A question about factors affecting wars.",
+    "difficulty": "advanced",
+    "options": [
+      "Wars",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 44,
+    "question": "How do scientists/scholars use renaissance in Medieval history?",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "renaissance",
+    "description": "A practical application question about renaissance.",
+    "difficulty": "advanced",
+    "options": [
+      "Renaissance",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 45,
+    "question": "Which of the following best describes world wars?",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "world wars",
+    "description": "A well-structured question about world wars.",
+    "difficulty": "advanced",
+    "options": [
+      "World Wars",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 46,
+    "question": "Explain the significance of terrorism in Contemporary history.",
+    "subject": "contemporary_history",
+    "date": "2026-04-21",
+    "topic": "Contemporary history",
+    "subtopic": "terrorism",
+    "description": "An analytical question requiring explanation of terrorism.",
+    "difficulty": "advanced",
+    "options": [
+      "Terrorism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 47,
+    "question": "What is the relationship between African history and post-colonial development?",
+    "subject": "african_history",
+    "date": "2026-04-21",
+    "topic": "African history",
+    "subtopic": "post-colonial development",
+    "description": "A comparative question linking African history and post-colonial development.",
+    "difficulty": "advanced",
+    "options": [
+      "Post-Colonial Development",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 48,
+    "question": "How does trade routes affect World history?",
+    "subject": "world_history",
+    "date": "2026-04-21",
+    "topic": "World history",
+    "subtopic": "trade routes",
+    "description": "A cause-and-effect question about trade routes and World history.",
+    "difficulty": "advanced",
+    "options": [
+      "Trade Routes",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 49,
+    "question": "Identify three key characteristics of reformation.",
+    "subject": "medieval_history",
+    "date": "2026-04-21",
+    "topic": "Medieval history",
+    "subtopic": "reformation",
+    "description": "A question requiring identification in Medieval history.",
+    "difficulty": "advanced",
+    "options": [
+      "Reformation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 50,
+    "question": "Describe the process of decolonization in Modern history.",
+    "subject": "modern_history",
+    "date": "2026-04-21",
+    "topic": "Modern history",
+    "subtopic": "decolonization",
+    "description": "A descriptive question about decolonization.",
+    "difficulty": "advanced",
+    "options": [
+      "Decolonization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  }
+]

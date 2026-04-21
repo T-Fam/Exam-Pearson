@@ -1,0 +1,852 @@
+[
+  {
+    "number": 1,
+    "question": "Explain the significance of supply and demand in Microeconomics.",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "supply and demand",
+    "description": "An analytical question requiring explanation of supply and demand.",
+    "difficulty": "basic",
+    "options": [
+      "Supply And Demand",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 2,
+    "question": "What is the relationship between Microeconomics and elasticity?",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "elasticity",
+    "description": "A comparative question linking Microeconomics and elasticity.",
+    "difficulty": "basic",
+    "options": [
+      "Elasticity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 3,
+    "question": "How does equilibrium affect Microeconomics?",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "equilibrium",
+    "description": "A cause-and-effect question about equilibrium and Microeconomics.",
+    "difficulty": "basic",
+    "options": [
+      "Equilibrium",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 4,
+    "question": "Identify three key characteristics of consumer behavior.",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "consumer behavior",
+    "description": "A question requiring identification in Microeconomics.",
+    "difficulty": "basic",
+    "options": [
+      "Consumer Behavior",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 5,
+    "question": "Describe the process of production in Microeconomics.",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "production",
+    "description": "A descriptive question about production.",
+    "difficulty": "basic",
+    "options": [
+      "Production",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 6,
+    "question": "What are the main causes of costs?",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "costs",
+    "description": "A question about causation related to costs.",
+    "difficulty": "basic",
+    "options": [
+      "Costs",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 7,
+    "question": "Compare and contrast profit with related concepts.",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "profit",
+    "description": "A comparative analysis question on profit.",
+    "difficulty": "basic",
+    "options": [
+      "Profit",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 8,
+    "question": "Analyze the impact of competition on Microeconomics.",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "competition",
+    "description": "A critical analysis question about competition.",
+    "difficulty": "basic",
+    "options": [
+      "Competition",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 9,
+    "question": "Define GDP and provide an example from Macroeconomics.",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "GDP",
+    "description": "A definition and example question.",
+    "difficulty": "basic",
+    "options": [
+      "Gdp",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 10,
+    "question": "How has inflation evolved within Macroeconomics?",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "inflation",
+    "description": "A historical perspective question on inflation.",
+    "difficulty": "basic",
+    "options": [
+      "Inflation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 11,
+    "question": "What are the limitations of unemployment in Macroeconomics?",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "unemployment",
+    "description": "A critical examination of unemployment's limitations.",
+    "difficulty": "basic",
+    "options": [
+      "Unemployment",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 12,
+    "question": "Evaluate the importance of economic growth in Macroeconomics.",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "economic growth",
+    "description": "A question evaluating the importance of economic growth.",
+    "difficulty": "basic",
+    "options": [
+      "Economic Growth",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 13,
+    "question": "Which factors influence business cycles?",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "business cycles",
+    "description": "A question about factors affecting business cycles.",
+    "difficulty": "basic",
+    "options": [
+      "Business Cycles",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 14,
+    "question": "How do scientists/scholars use fiscal policy in Macroeconomics?",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "fiscal policy",
+    "description": "A practical application question about fiscal policy.",
+    "difficulty": "basic",
+    "options": [
+      "Fiscal Policy",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 15,
+    "question": "Which of the following best describes monetary policy?",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "monetary policy",
+    "description": "A well-structured question about monetary policy.",
+    "difficulty": "basic",
+    "options": [
+      "Monetary Policy",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 16,
+    "question": "Explain the significance of poverty in Development economics.",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "poverty",
+    "description": "An analytical question requiring explanation of poverty.",
+    "difficulty": "basic",
+    "options": [
+      "Poverty",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 17,
+    "question": "What is the relationship between Development economics and inequality?",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "inequality",
+    "description": "A comparative question linking Development economics and inequality.",
+    "difficulty": "intermediate",
+    "options": [
+      "Inequality",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 18,
+    "question": "How does growth strategies affect Development economics?",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "growth strategies",
+    "description": "A cause-and-effect question about growth strategies and Development economics.",
+    "difficulty": "intermediate",
+    "options": [
+      "Growth Strategies",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 19,
+    "question": "Identify three key characteristics of infrastructure.",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "infrastructure",
+    "description": "A question requiring identification in Development economics.",
+    "difficulty": "intermediate",
+    "options": [
+      "Infrastructure",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 20,
+    "question": "Describe the process of education in Development economics.",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "education",
+    "description": "A descriptive question about education.",
+    "difficulty": "intermediate",
+    "options": [
+      "Education",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 21,
+    "question": "What are the main causes of health?",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "health",
+    "description": "A question about causation related to health.",
+    "difficulty": "intermediate",
+    "options": [
+      "Health",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 22,
+    "question": "Compare and contrast resource management with related concepts.",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "resource management",
+    "description": "A comparative analysis question on resource management.",
+    "difficulty": "intermediate",
+    "options": [
+      "Resource Management",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 23,
+    "question": "Analyze the impact of comparative advantage on International economics.",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "comparative advantage",
+    "description": "A critical analysis question about comparative advantage.",
+    "difficulty": "intermediate",
+    "options": [
+      "Comparative Advantage",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 24,
+    "question": "Define trade and provide an example from International economics.",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "trade",
+    "description": "A definition and example question.",
+    "difficulty": "intermediate",
+    "options": [
+      "Trade",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 25,
+    "question": "How has tariffs evolved within International economics?",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "tariffs",
+    "description": "A historical perspective question on tariffs.",
+    "difficulty": "intermediate",
+    "options": [
+      "Tariffs",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 26,
+    "question": "What are the limitations of exchange rates in International economics?",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "exchange rates",
+    "description": "A critical examination of exchange rates's limitations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Exchange Rates",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 27,
+    "question": "Evaluate the importance of balance of payments in International economics.",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "balance of payments",
+    "description": "A question evaluating the importance of balance of payments.",
+    "difficulty": "intermediate",
+    "options": [
+      "Balance Of Payments",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 28,
+    "question": "Which factors influence globalization?",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "globalization",
+    "description": "A question about factors affecting globalization.",
+    "difficulty": "intermediate",
+    "options": [
+      "Globalization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 29,
+    "question": "How do scientists/scholars use wages in Labor economics?",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "wages",
+    "description": "A practical application question about wages.",
+    "difficulty": "intermediate",
+    "options": [
+      "Wages",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 30,
+    "question": "Which of the following best describes employment?",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "employment",
+    "description": "A well-structured question about employment.",
+    "difficulty": "intermediate",
+    "options": [
+      "Employment",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 31,
+    "question": "Explain the significance of unemployment in Labor economics.",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "unemployment",
+    "description": "An analytical question requiring explanation of unemployment.",
+    "difficulty": "intermediate",
+    "options": [
+      "Unemployment",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 32,
+    "question": "What is the relationship between Labor economics and discrimination?",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "discrimination",
+    "description": "A comparative question linking Labor economics and discrimination.",
+    "difficulty": "intermediate",
+    "options": [
+      "Discrimination",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 33,
+    "question": "How does education affect Labor economics?",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "education",
+    "description": "A cause-and-effect question about education and Labor economics.",
+    "difficulty": "intermediate",
+    "options": [
+      "Education",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 34,
+    "question": "Identify three key characteristics of unions.",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "unions",
+    "description": "A question requiring identification in Labor economics.",
+    "difficulty": "advanced",
+    "options": [
+      "Unions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 35,
+    "question": "Describe the process of human capital in Labor economics.",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "human capital",
+    "description": "A descriptive question about human capital.",
+    "difficulty": "advanced",
+    "options": [
+      "Human Capital",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 36,
+    "question": "What are the main causes of supply and demand?",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "supply and demand",
+    "description": "A question about causation related to supply and demand.",
+    "difficulty": "advanced",
+    "options": [
+      "Supply And Demand",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 37,
+    "question": "Compare and contrast GDP with related concepts.",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "GDP",
+    "description": "A comparative analysis question on GDP.",
+    "difficulty": "advanced",
+    "options": [
+      "Gdp",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 38,
+    "question": "Analyze the impact of poverty on Development economics.",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "poverty",
+    "description": "A critical analysis question about poverty.",
+    "difficulty": "advanced",
+    "options": [
+      "Poverty",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 39,
+    "question": "Define comparative advantage and provide an example from International economics.",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "comparative advantage",
+    "description": "A definition and example question.",
+    "difficulty": "advanced",
+    "options": [
+      "Comparative Advantage",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 40,
+    "question": "How has wages evolved within Labor economics?",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "wages",
+    "description": "A historical perspective question on wages.",
+    "difficulty": "advanced",
+    "options": [
+      "Wages",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 41,
+    "question": "What are the limitations of elasticity in Microeconomics?",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "elasticity",
+    "description": "A critical examination of elasticity's limitations.",
+    "difficulty": "advanced",
+    "options": [
+      "Elasticity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 42,
+    "question": "Evaluate the importance of inflation in Macroeconomics.",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "inflation",
+    "description": "A question evaluating the importance of inflation.",
+    "difficulty": "advanced",
+    "options": [
+      "Inflation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 43,
+    "question": "Which factors influence inequality?",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "inequality",
+    "description": "A question about factors affecting inequality.",
+    "difficulty": "advanced",
+    "options": [
+      "Inequality",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 44,
+    "question": "How do scientists/scholars use trade in International economics?",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "trade",
+    "description": "A practical application question about trade.",
+    "difficulty": "advanced",
+    "options": [
+      "Trade",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 45,
+    "question": "Which of the following best describes employment?",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "employment",
+    "description": "A well-structured question about employment.",
+    "difficulty": "advanced",
+    "options": [
+      "Employment",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 46,
+    "question": "Explain the significance of equilibrium in Microeconomics.",
+    "subject": "microeconomics",
+    "date": "2026-04-21",
+    "topic": "Microeconomics",
+    "subtopic": "equilibrium",
+    "description": "An analytical question requiring explanation of equilibrium.",
+    "difficulty": "advanced",
+    "options": [
+      "Equilibrium",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 47,
+    "question": "What is the relationship between Macroeconomics and unemployment?",
+    "subject": "macroeconomics",
+    "date": "2026-04-21",
+    "topic": "Macroeconomics",
+    "subtopic": "unemployment",
+    "description": "A comparative question linking Macroeconomics and unemployment.",
+    "difficulty": "advanced",
+    "options": [
+      "Unemployment",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 48,
+    "question": "How does growth strategies affect Development economics?",
+    "subject": "development_economics",
+    "date": "2026-04-21",
+    "topic": "Development economics",
+    "subtopic": "growth strategies",
+    "description": "A cause-and-effect question about growth strategies and Development economics.",
+    "difficulty": "advanced",
+    "options": [
+      "Growth Strategies",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 49,
+    "question": "Identify three key characteristics of tariffs.",
+    "subject": "international_economics",
+    "date": "2026-04-21",
+    "topic": "International economics",
+    "subtopic": "tariffs",
+    "description": "A question requiring identification in International economics.",
+    "difficulty": "advanced",
+    "options": [
+      "Tariffs",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 50,
+    "question": "Describe the process of unemployment in Labor economics.",
+    "subject": "labor_economics",
+    "date": "2026-04-21",
+    "topic": "Labor economics",
+    "subtopic": "unemployment",
+    "description": "A descriptive question about unemployment.",
+    "difficulty": "advanced",
+    "options": [
+      "Unemployment",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  }
+]

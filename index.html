@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WAEC Practice — Free Revision Quizzes</title>
+  <meta name="description" content="Free WAEC revision practice — filter by grade, subject, topic, and question type, then take timed objective or theory quizzes with instant scoring." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>
+    // Apply saved theme before paint to avoid flash of wrong theme
+    (function() {
+      try {
+        var t = localStorage.getItem("waec-theme");
+        if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) { /* storage blocked — fall back to prefers-color-scheme */ }
+    })();
+  </script>
+  <!-- Chart.js for dashboard graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo">W</span>
+      <div>
+        <div>WAEC Practice</div>
+        <div class="tag">Free revision quizzes for Grades 10–12</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <nav id="authNav" class="auth-nav">
+        <button id="navPractice" class="nav-btn" type="button">Practice</button>
+        <button id="navDashboard" class="nav-btn hidden" type="button">Dashboard</button>
+        <button id="navLogin" class="nav-btn" type="button">Log in</button>
+        <button id="navLogout" class="nav-btn hidden" type="button">Log out</button>
+        <span id="userChip" class="user-chip hidden"></span>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="icon moon" aria-hidden="true">🌙</span>
+        <span class="icon sun" aria-hidden="true">☀️</span>
+        <span class="label">Theme</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- AUTH VIEW -->
+    <section id="view-auth" class="hidden">
+      <div class="card auth-card">
+        <div class="auth-tabs">
+          <button class="auth-tab active" data-tab="login" type="button">Log in</button>
+          <button class="auth-tab" data-tab="signup" type="button">Sign up</button>
+        </div>
+
+        <form id="loginForm" class="auth-form">
+          <h2>Welcome back</h2>
+          <p class="sub">Log in to track your quizzes and view your dashboard.</p>
+          <label for="loginUsername">Username</label>
+          <input id="loginUsername" type="text" autocomplete="username" required />
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" type="password" autocomplete="current-password" required />
+          <div id="loginError" class="auth-error hidden"></div>
+          <button class="btn btn-primary" type="submit">Log in</button>
+          <p class="sub" style="margin-top:14px;">New here? <a href="#" id="switchToSignup">Create an account</a>.</p>
+        </form>
+
+        <form id="signupForm" class="auth-form hidden">
+          <h2>Create your account</h2>
+          <p class="sub">Free forever. Your quiz history stays on this device.</p>
+          <label for="signupName">Display name</label>
+          <input id="signupName" type="text" required />
+          <label for="signupUsername">Username</label>
+          <input id="signupUsername" type="text" autocomplete="username" required />
+          <label for="signupPassword">Password</label>
+          <input id="signupPassword" type="password" autocomplete="new-password" minlength="4" required />
+          <div id="signupError" class="auth-error hidden"></div>
+          <button class="btn btn-primary" type="submit">Create account</button>
+          <p class="sub" style="margin-top:14px;">Already have an account? <a href="#" id="switchToLogin">Log in</a>.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FILTER VIEW -->
+    <section id="view-filter">
+      <div class="card paper-card">
+        <div class="letterhead">
+          <div class="seal">WAEC<br/>PRACT.</div>
+          <div>
+            <div class="letterhead-main">West African Examination Aid</div>
+            <div class="letterhead-sub">Original practice papers · free forever</div>
+          </div>
+        </div>
+        <hr class="rule-double" />
+        <h1>Build your practice quiz</h1>
+        <p class="sub">Pick your grade, subject, topic, and question type. Set how many questions and how long. Hit start.</p>
+
+        <div id="loginNudge" class="login-nudge hidden">
+          <span>💡 <strong>Log in</strong> to save results and unlock the dashboard with charts and stats.</span>
+          <button id="nudgeLoginBtn" class="btn btn-ghost" type="button">Log in / Sign up</button>
+        </div>
+
+        <div class="filter-grid">
+          <div>
+            <label for="grade">Grade</label>
+            <div class="chip-row" id="gradeChips" role="group" aria-label="Select grade">
+              <button type="button" class="chip" data-grade="10">SS1 · G10</button>
+              <button type="button" class="chip" data-grade="11">SS2 · G11</button>
+              <button type="button" class="chip" data-grade="12">SS3 · G12</button>
+            </div>
+            <select id="grade" class="visually-hidden" aria-hidden="true" tabindex="-1">
+              <option value="">— Select grade —</option>
+              <option value="10">Grade 10 (SS1)</option>
+              <option value="11">Grade 11 (SS2)</option>
+              <option value="12">Grade 12 (SS3)</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="subject">Subject</label>
+            <select id="subject"><option value="">— Select subject —</option></select>
+          </div>
+
+          <div>
+            <label for="topic">Topic</label>
+            <select id="topic" disabled><option value="">— Select topic —</option></select>
+          </div>
+
+          <div class="full">
+            <label>Question type</label>
+            <div class="ff-fmt">
+              <label class="ff-fmt-btn pill" data-group="type" data-value="objective">
+                <input type="radio" name="type" value="objective" />
+                <span class="ff-fmt-name">Objective</span>
+                <span class="ff-fmt-meta">MCQ · 1 mark each</span>
+              </label>
+              <label class="ff-fmt-btn pill" data-group="type" data-value="theory">
+                <input type="radio" name="type" value="theory" />
+                <span class="ff-fmt-name">Theory</span>
+                <span class="ff-fmt-meta">Written · model answers</span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label for="numQuestions">Number of questions</label>
+            <input id="numQuestions" type="number" min="1" max="50" value="10" />
+          </div>
+
+          <div>
+            <label for="timeMinutes">Time limit (minutes)</label>
+            <input id="timeMinutes" type="number" min="1" max="120" value="15" />
+          </div>
+
+          <div class="full">
+            <div id="availability" class="empty">Pick grade, subject, topic, and question type to begin.</div>
+          </div>
+        </div>
+
+        <div class="row-actions">
+          <button id="startBtn" class="btn btn-primary" disabled>Start Quiz →</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>About this site</h2>
+        <p class="sub">Free forever for students across West Africa. Questions follow the WAEC syllabus. Works on mobile. No sign-up needed — but signing up unlocks a personal dashboard with progress tracking.</p>
+        <p class="sub" style="margin:0;">Made for candidates preparing for WASSCE — Maths, English, Sciences, Social Sciences, Literature, and more.</p>
+      </div>
+    </section>
+
+    <!-- DASHBOARD VIEW -->
+    <section id="view-dashboard" class="hidden">
+      <div class="card dashboard-hero">
+        <div>
+          <h1 id="dashGreeting">Your dashboard</h1>
+          <p class="sub" id="dashSubtitle">A snapshot of your practice so far.</p>
+        </div>
+        <button id="dashNewQuizBtn" class="btn btn-primary" type="button">+ New quiz</button>
+      </div>
+
+      <div id="dashEmptyState" class="card hidden">
+        <div class="empty-hero">
+          <div class="empty-emoji">📊</div>
+          <h2>No quizzes yet</h2>
+          <p class="sub">Take your first quiz to see stats, trends, and per-subject progress right here.</p>
+          <button id="emptyStartBtn" class="btn btn-primary" type="button">Start your first quiz</button>
+        </div>
+      </div>
+
+      <div id="dashContent" class="hidden">
+        <!-- KPI cards -->
+        <div class="card">
+          <h2>At a glance</h2>
+          <div class="kpi-grid">
+            <div class="kpi"><div class="kpi-val" id="kpiTotalQuizzes">0</div><div class="kpi-lbl">Quizzes taken</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiTotalQuestions">0</div><div class="kpi-lbl">Questions answered</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiAvgScore">—</div><div class="kpi-lbl">Average score</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiBestScore">—</div><div class="kpi-lbl">Best score</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiAccuracy">—</div><div class="kpi-lbl">Overall accuracy</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiStreak">0</div><div class="kpi-lbl">Day streak</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiTimeSpent">0m</div><div class="kpi-lbl">Time practicing</div></div>
+            <div class="kpi"><div class="kpi-val" id="kpiSubjects">0</div><div class="kpi-lbl">Subjects explored</div></div>
+          </div>
+        </div>
+
+        <!-- Graphs row -->
+        <div class="card">
+          <h2>Performance over time</h2>
+          <p class="sub">Your objective quiz scores on each attempt.</p>
+          <div class="chart-wrap"><canvas id="chartTrend"></canvas></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h2>Average score by subject</h2>
+            <p class="sub">Where you're strong — and where to focus.</p>
+            <div class="chart-wrap"><canvas id="chartSubject"></canvas></div>
+          </div>
+
+          <div class="card">
+            <h2>Quiz outcomes</h2>
+            <p class="sub">Correct vs wrong vs skipped across every objective quiz.</p>
+            <div class="chart-wrap"><canvas id="chartOutcomes"></canvas></div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h2>Practice by grade</h2>
+            <p class="sub">How your effort splits between SS1, SS2, and SS3.</p>
+            <div class="chart-wrap"><canvas id="chartGrade"></canvas></div>
+          </div>
+
+          <div class="card">
+            <h2>Weekly activity</h2>
+            <p class="sub">Quizzes taken in the last 8 weeks.</p>
+            <div class="chart-wrap"><canvas id="chartWeekly"></canvas></div>
+          </div>
+        </div>
+
+        <!-- Topic leaderboard -->
+        <div class="card">
+          <h2>Top topics</h2>
+          <p class="sub">Your highest-scoring topics (objective quizzes, minimum 1 attempt).</p>
+          <div id="topicTable" class="topic-table"></div>
+        </div>
+
+        <!-- History table -->
+        <div class="card">
+          <div class="history-header">
+            <div>
+              <h2 style="margin-bottom:4px;">Quiz history</h2>
+              <p class="sub" style="margin:0;">Every quiz you've taken. Click any row to review questions.</p>
+            </div>
+            <div class="history-filter">
+              <select id="historySubjectFilter">
+                <option value="">All subjects</option>
+              </select>
+              <button id="clearHistoryBtn" class="btn btn-danger" type="button">Clear history</button>
+            </div>
+          </div>
+          <div id="historyTable" class="history-table"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIZ VIEW -->
+    <section id="view-quiz" class="hidden">
+      <div class="card paper-card quiz-paper">
+        <div class="quiz-bar">
+          <div>
+            <div id="quizTitle">—</div>
+            <div id="quizSubtitle" class="sub" style="margin:0;font-size:13px;"></div>
+          </div>
+          <div class="quiz-top-right">
+            <div id="timerBox" class="quiz-timer">
+              <span class="timer-lbl">Time</span>
+              <span id="timer" class="timer-val">00:00</span>
+            </div>
+            <div class="quiz-score">
+              <span class="score-lbl">Answered</span>
+              <span id="answeredCount" class="score-val">0 / 0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-progress">
+          <div class="qpbar"><div id="qpfill" class="qpfill" style="width:0%"></div></div>
+          <div class="qplabel"><span id="qCounter">Question 1 of N</span> · <span id="qPercent">0%</span></div>
+        </div>
+
+        <div id="questionContainer"></div>
+
+        <div class="quiz-dots" id="quizDots" aria-label="Jump to question"></div>
+
+        <div class="nav-row">
+          <button id="prevBtn" class="btn btn-ghost">← Previous</button>
+          <div style="display:flex; gap:10px;">
+            <button id="backToFiltersBtn" class="btn btn-ghost">Leave</button>
+            <button id="submitBtn" class="btn btn-primary">Submit Quiz</button>
+            <button id="nextBtn" class="btn btn-ghost">Next →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS VIEW -->
+    <section id="view-results" class="hidden">
+      <div class="card paper-card results-paper">
+        <span class="stamp">GRADED</span>
+        <h2>Results</h2>
+        <div class="score-hero">
+          <div class="score-number" id="scoreNumber">0 / 0</div>
+          <div class="score-pct" id="scorePct">—</div>
+        </div>
+
+        <div class="sr-grid" aria-label="Score summary">
+          <div class="sr-box"><div class="sr-big" id="srScore">—<span>%</span></div><div class="sr-small">Score</div></div>
+          <div class="sr-box"><div class="sr-big" id="srAccuracy">—<span>%</span></div><div class="sr-small">Accuracy</div></div>
+          <div class="sr-box"><div class="sr-big" id="srTime">—<span>m</span></div><div class="sr-small">Time used</div></div>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><div class="val" id="statCorrect">0</div><div class="lbl" id="statCorrectLbl">Correct</div></div>
+          <div class="stat"><div class="val" id="statWrong">0</div><div class="lbl" id="statWrongLbl">Wrong</div></div>
+          <div class="stat"><div class="val" id="statSkipped">0</div><div class="lbl" id="statSkippedLbl">Skipped</div></div>
+        </div>
+        <div class="stats" style="margin-top:10px;">
+          <div class="stat" style="grid-column: 1 / -1;"><div class="val" id="statTime">—</div><div class="lbl">Time taken</div></div>
+        </div>
+
+        <div id="resultsSavedNote" class="saved-note hidden">✅ Saved to your dashboard.</div>
+
+        <h3 style="margin-top:24px;">Question-by-question review</h3>
+        <div class="review" id="review"></div>
+
+        <div class="row-actions">
+          <button id="restartBtn" class="btn btn-primary">Practice another topic</button>
+          <button id="goDashboardBtn" class="btn btn-ghost hidden" type="button">View dashboard →</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>WAEC Practice · Free for all students · Built for revision</div>
+  </footer>
+
+  <script src="js/questions.js"></script>
+  <script src="js/questions-loader.js"></script>
+  <script src="js/bank/day_2026_04_20.js"></script>
+  <script src="js/bank/day_2026_04_20_batch2.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

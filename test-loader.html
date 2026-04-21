@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAEC Questions Loader Test</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+    .success { color: green; font-weight: bold; }
+    .error { color: red; font-weight: bold; }
+    .info { color: blue; }
+    code { background: #f0f0f0; padding: 2px 5px; }
+  </style>
+</head>
+<body>
+  <h1>WAEC Questions Loader Test</h1>
+  
+  <div class="section">
+    <h2>Loader Status</h2>
+    <div id="status">Loading...</div>
+  </div>
+
+  <div class="section">
+    <h2>Questions Summary</h2>
+    <div id="summary">Loading...</div>
+  </div>
+
+  <div class="section">
+    <h2>Sample Questions</h2>
+    <div id="samples">Loading...</div>
+  </div>
+
+  <script src="js/questions.js"></script>
+  <script src="js/questions-loader.js"></script>
+
+  <script>
+    function formatSummary() {
+      const loader = window.QuestionsLoader;
+      
+      setTimeout(() => {
+        const status = document.getElementById('status');
+        const summary = document.getElementById('summary');
+        const samples = document.getElementById('samples');
+
+        if (loader.isLoaded()) {
+          status.innerHTML = '<div class="success">✅ Questions loaded successfully!</div>';
+          
+          const questions = loader.getQuestions();
+          const subjectCount = Object.keys(questions).length;
+          
+          let html = `<p><strong>${subjectCount} subjects loaded</strong></p>`;
+          html += '<ul>';
+          
+          Object.keys(questions).slice(0, 10).forEach(subject => {
+            const qData = questions[subject];
+            const objCount = qData.objective ? qData.objective.length : 0;
+            const thCount = qData.theory ? qData.theory.length : 0;
+            html += `<li><strong>${subject}:</strong> ${objCount} objective, ${thCount} theory</li>`;
+          });
+          
+          if (subjectCount > 10) {
+            html += `<li>... and ${subjectCount - 10} more subjects</li>`;
+          }
+          
+          html += '</ul>';
+          summary.innerHTML = html;
+
+          // Show sample questions
+          let sampleHtml = '<h3>Sample Questions (first subject)</h3>';
+          const firstSubject = Object.keys(questions)[0];
+          if (firstSubject) {
+            const qData = questions[firstSubject];
+            sampleHtml += `<h4>${firstSubject}</h4>`;
+            
+            if (qData.objective && qData.objective.length > 0) {
+              sampleHtml += '<h5>Objective Sample:</h5>';
+              const q = qData.objective[0];
+              sampleHtml += `<p><strong>Q:</strong> ${q.q}</p>`;
+              sampleHtml += '<p><strong>Options:</strong> ' + (q.options ? q.options.join(', ') : 'N/A') + '</p>';
+            }
+
+            if (qData.theory && qData.theory.length > 0) {
+              sampleHtml += '<h5>Theory Sample:</h5>';
+              const q = qData.theory[0];
+              sampleHtml += `<p><strong>Q:</strong> ${q.q}</p>`;
+            }
+          }
+          
+          samples.innerHTML = sampleHtml;
+        } else {
+          const error = loader.getError();
+          status.innerHTML = `<div class="error">❌ Loader Error: ${error || 'Unknown error'}</div>`;
+          summary.innerHTML = '<p class="error">Questions failed to load. Check browser console for details.</p>';
+          samples.innerHTML = '<p class="info">Fallback to hardcoded questions. This is expected if no generated questions are available yet.</p>';
+        }
+      }, 500); // Give loader time to finish
+    }
+
+    formatSummary();
+  </script>
+</body>
+</html>

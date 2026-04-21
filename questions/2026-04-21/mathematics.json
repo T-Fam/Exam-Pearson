@@ -1,0 +1,852 @@
+[
+  {
+    "number": 1,
+    "question": "Explain the significance of equations in Algebra.",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "equations",
+    "description": "An analytical question requiring explanation of equations.",
+    "difficulty": "basic",
+    "options": [
+      "Equations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 2,
+    "question": "What is the relationship between Algebra and quadratic equations?",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "quadratic equations",
+    "description": "A comparative question linking Algebra and quadratic equations.",
+    "difficulty": "basic",
+    "options": [
+      "Quadratic Equations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 3,
+    "question": "How does polynomials affect Algebra?",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "polynomials",
+    "description": "A cause-and-effect question about polynomials and Algebra.",
+    "difficulty": "basic",
+    "options": [
+      "Polynomials",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 4,
+    "question": "Identify three key characteristics of functions.",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "functions",
+    "description": "A question requiring identification in Algebra.",
+    "difficulty": "basic",
+    "options": [
+      "Functions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 5,
+    "question": "Describe the process of exponentials in Algebra.",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "exponentials",
+    "description": "A descriptive question about exponentials.",
+    "difficulty": "basic",
+    "options": [
+      "Exponentials",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 6,
+    "question": "What are the main causes of logarithms?",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "logarithms",
+    "description": "A question about causation related to logarithms.",
+    "difficulty": "basic",
+    "options": [
+      "Logarithms",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 7,
+    "question": "Compare and contrast inequalities with related concepts.",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "inequalities",
+    "description": "A comparative analysis question on inequalities.",
+    "difficulty": "basic",
+    "options": [
+      "Inequalities",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 8,
+    "question": "Analyze the impact of factorization on Algebra.",
+    "subject": "algebra",
+    "date": "2026-04-21",
+    "topic": "Algebra",
+    "subtopic": "factorization",
+    "description": "A critical analysis question about factorization.",
+    "difficulty": "basic",
+    "options": [
+      "Factorization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 9,
+    "question": "Define angles and provide an example from Geometry.",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "angles",
+    "description": "A definition and example question.",
+    "difficulty": "basic",
+    "options": [
+      "Angles",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 10,
+    "question": "How has triangles evolved within Geometry?",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "triangles",
+    "description": "A historical perspective question on triangles.",
+    "difficulty": "basic",
+    "options": [
+      "Triangles",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 11,
+    "question": "What are the limitations of circles in Geometry?",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "circles",
+    "description": "A critical examination of circles's limitations.",
+    "difficulty": "basic",
+    "options": [
+      "Circles",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 12,
+    "question": "Evaluate the importance of polygons in Geometry.",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "polygons",
+    "description": "A question evaluating the importance of polygons.",
+    "difficulty": "basic",
+    "options": [
+      "Polygons",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 13,
+    "question": "Which factors influence area?",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "area",
+    "description": "A question about factors affecting area.",
+    "difficulty": "basic",
+    "options": [
+      "Area",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 14,
+    "question": "How do scientists/scholars use perimeter in Geometry?",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "perimeter",
+    "description": "A practical application question about perimeter.",
+    "difficulty": "basic",
+    "options": [
+      "Perimeter",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 15,
+    "question": "Which of the following best describes volume?",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "volume",
+    "description": "A well-structured question about volume.",
+    "difficulty": "basic",
+    "options": [
+      "Volume",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 16,
+    "question": "Explain the significance of surface area in Geometry.",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "surface area",
+    "description": "An analytical question requiring explanation of surface area.",
+    "difficulty": "basic",
+    "options": [
+      "Surface Area",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 17,
+    "question": "What is the relationship between Geometry and coordinate geometry?",
+    "subject": "geometry",
+    "date": "2026-04-21",
+    "topic": "Geometry",
+    "subtopic": "coordinate geometry",
+    "description": "A comparative question linking Geometry and coordinate geometry.",
+    "difficulty": "intermediate",
+    "options": [
+      "Coordinate Geometry",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 18,
+    "question": "How does sine rule affect Trigonometry?",
+    "subject": "trigonometry",
+    "date": "2026-04-21",
+    "topic": "Trigonometry",
+    "subtopic": "sine rule",
+    "description": "A cause-and-effect question about sine rule and Trigonometry.",
+    "difficulty": "intermediate",
+    "options": [
+      "Sine Rule",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 19,
+    "question": "Identify three key characteristics of cosine rule.",
+    "subject": "trigonometry",
+    "date": "2026-04-21",
+    "topic": "Trigonometry",
+    "subtopic": "cosine rule",
+    "description": "A question requiring identification in Trigonometry.",
+    "difficulty": "intermediate",
+    "options": [
+      "Cosine Rule",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 20,
+    "question": "Describe the process of trigonometric identities in Trigonometry.",
+    "subject": "trigonometry",
+    "date": "2026-04-21",
+    "topic": "Trigonometry",
+    "subtopic": "trigonometric identities",
+    "description": "A descriptive question about trigonometric identities.",
+    "difficulty": "intermediate",
+    "options": [
+      "Trigonometric Identities",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 21,
+    "question": "What are the main causes of inverse functions?",
+    "subject": "trigonometry",
+    "date": "2026-04-21",
+    "topic": "Trigonometry",
+    "subtopic": "inverse functions",
+    "description": "A question about causation related to inverse functions.",
+    "difficulty": "intermediate",
+    "options": [
+      "Inverse Functions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 22,
+    "question": "Compare and contrast applications with related concepts.",
+    "subject": "trigonometry",
+    "date": "2026-04-21",
+    "topic": "Trigonometry",
+    "subtopic": "applications",
+    "description": "A comparative analysis question on applications.",
+    "difficulty": "intermediate",
+    "options": [
+      "Applications",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 23,
+    "question": "Analyze the impact of bearings on Trigonometry.",
+    "subject": "trigonometry",
+    "date": "2026-04-21",
+    "topic": "Trigonometry",
+    "subtopic": "bearings",
+    "description": "A critical analysis question about bearings.",
+    "difficulty": "intermediate",
+    "options": [
+      "Bearings",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 24,
+    "question": "Define limits and provide an example from Calculus.",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "limits",
+    "description": "A definition and example question.",
+    "difficulty": "intermediate",
+    "options": [
+      "Limits",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 25,
+    "question": "How has derivatives evolved within Calculus?",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "derivatives",
+    "description": "A historical perspective question on derivatives.",
+    "difficulty": "intermediate",
+    "options": [
+      "Derivatives",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 26,
+    "question": "What are the limitations of integrals in Calculus?",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "integrals",
+    "description": "A critical examination of integrals's limitations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Integrals",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 27,
+    "question": "Evaluate the importance of continuity in Calculus.",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "continuity",
+    "description": "A question evaluating the importance of continuity.",
+    "difficulty": "intermediate",
+    "options": [
+      "Continuity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 28,
+    "question": "Which factors influence applications?",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "applications",
+    "description": "A question about factors affecting applications.",
+    "difficulty": "intermediate",
+    "options": [
+      "Applications",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 29,
+    "question": "How do scientists/scholars use optimization in Calculus?",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "optimization",
+    "description": "A practical application question about optimization.",
+    "difficulty": "intermediate",
+    "options": [
+      "Optimization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 30,
+    "question": "Which of the following best describes rates of change?",
+    "subject": "calculus",
+    "date": "2026-04-21",
+    "topic": "Calculus",
+    "subtopic": "rates of change",
+    "description": "A well-structured question about rates of change.",
+    "difficulty": "intermediate",
+    "options": [
+      "Rates Of Change",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 31,
+    "question": "Explain the significance of mean in Statistics.",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "mean",
+    "description": "An analytical question requiring explanation of mean.",
+    "difficulty": "intermediate",
+    "options": [
+      "Mean",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 32,
+    "question": "What is the relationship between Statistics and median?",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "median",
+    "description": "A comparative question linking Statistics and median.",
+    "difficulty": "intermediate",
+    "options": [
+      "Median",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 33,
+    "question": "How does mode affect Statistics?",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "mode",
+    "description": "A cause-and-effect question about mode and Statistics.",
+    "difficulty": "intermediate",
+    "options": [
+      "Mode",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 34,
+    "question": "Identify three key characteristics of range.",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "range",
+    "description": "A question requiring identification in Statistics.",
+    "difficulty": "advanced",
+    "options": [
+      "Range",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 35,
+    "question": "Describe the process of standard deviation in Statistics.",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "standard deviation",
+    "description": "A descriptive question about standard deviation.",
+    "difficulty": "advanced",
+    "options": [
+      "Standard Deviation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 36,
+    "question": "What are the main causes of probability?",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "probability",
+    "description": "A question about causation related to probability.",
+    "difficulty": "advanced",
+    "options": [
+      "Probability",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 37,
+    "question": "Compare and contrast distributions with related concepts.",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "distributions",
+    "description": "A comparative analysis question on distributions.",
+    "difficulty": "advanced",
+    "options": [
+      "Distributions",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 38,
+    "question": "Analyze the impact of hypothesis testing on Statistics.",
+    "subject": "statistics",
+    "date": "2026-04-21",
+    "topic": "Statistics",
+    "subtopic": "hypothesis testing",
+    "description": "A critical analysis question about hypothesis testing.",
+    "difficulty": "advanced",
+    "options": [
+      "Hypothesis Testing",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 39,
+    "question": "Define arithmetic sequences and provide an example from Sequences.",
+    "subject": "sequences",
+    "date": "2026-04-21",
+    "topic": "Sequences",
+    "subtopic": "arithmetic sequences",
+    "description": "A definition and example question.",
+    "difficulty": "advanced",
+    "options": [
+      "Arithmetic Sequences",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 40,
+    "question": "How has geometric sequences evolved within Sequences?",
+    "subject": "sequences",
+    "date": "2026-04-21",
+    "topic": "Sequences",
+    "subtopic": "geometric sequences",
+    "description": "A historical perspective question on geometric sequences.",
+    "difficulty": "advanced",
+    "options": [
+      "Geometric Sequences",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 41,
+    "question": "What are the limitations of series in Sequences?",
+    "subject": "sequences",
+    "date": "2026-04-21",
+    "topic": "Sequences",
+    "subtopic": "series",
+    "description": "A critical examination of series's limitations.",
+    "difficulty": "advanced",
+    "options": [
+      "Series",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 42,
+    "question": "Evaluate the importance of summation in Sequences.",
+    "subject": "sequences",
+    "date": "2026-04-21",
+    "topic": "Sequences",
+    "subtopic": "summation",
+    "description": "A question evaluating the importance of summation.",
+    "difficulty": "advanced",
+    "options": [
+      "Summation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 43,
+    "question": "Which factors influence convergence?",
+    "subject": "sequences",
+    "date": "2026-04-21",
+    "topic": "Sequences",
+    "subtopic": "convergence",
+    "description": "A question about factors affecting convergence.",
+    "difficulty": "advanced",
+    "options": [
+      "Convergence",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 44,
+    "question": "How do scientists/scholars use notation in Sequences?",
+    "subject": "sequences",
+    "date": "2026-04-21",
+    "topic": "Sequences",
+    "subtopic": "notation",
+    "description": "A practical application question about notation.",
+    "difficulty": "advanced",
+    "options": [
+      "Notation",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 45,
+    "question": "Which of the following best describes matrix operations?",
+    "subject": "matrices",
+    "date": "2026-04-21",
+    "topic": "Matrices",
+    "subtopic": "matrix operations",
+    "description": "A well-structured question about matrix operations.",
+    "difficulty": "advanced",
+    "options": [
+      "Matrix Operations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 46,
+    "question": "Explain the significance of determinants in Matrices.",
+    "subject": "matrices",
+    "date": "2026-04-21",
+    "topic": "Matrices",
+    "subtopic": "determinants",
+    "description": "An analytical question requiring explanation of determinants.",
+    "difficulty": "advanced",
+    "options": [
+      "Determinants",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 47,
+    "question": "What is the relationship between Matrices and inverses?",
+    "subject": "matrices",
+    "date": "2026-04-21",
+    "topic": "Matrices",
+    "subtopic": "inverses",
+    "description": "A comparative question linking Matrices and inverses.",
+    "difficulty": "advanced",
+    "options": [
+      "Inverses",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 48,
+    "question": "How does linear equations affect Matrices?",
+    "subject": "matrices",
+    "date": "2026-04-21",
+    "topic": "Matrices",
+    "subtopic": "linear equations",
+    "description": "A cause-and-effect question about linear equations and Matrices.",
+    "difficulty": "advanced",
+    "options": [
+      "Linear Equations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 49,
+    "question": "Identify three key characteristics of eigenvalues.",
+    "subject": "matrices",
+    "date": "2026-04-21",
+    "topic": "Matrices",
+    "subtopic": "eigenvalues",
+    "description": "A question requiring identification in Matrices.",
+    "difficulty": "advanced",
+    "options": [
+      "Eigenvalues",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 50,
+    "question": "Describe the process of transformations in Matrices.",
+    "subject": "matrices",
+    "date": "2026-04-21",
+    "topic": "Matrices",
+    "subtopic": "transformations",
+    "description": "A descriptive question about transformations.",
+    "difficulty": "advanced",
+    "options": [
+      "Transformations",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  }
+]

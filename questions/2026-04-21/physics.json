@@ -1,0 +1,852 @@
+[
+  {
+    "number": 1,
+    "question": "Explain the significance of kinematics in Mechanics.",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "kinematics",
+    "description": "An analytical question requiring explanation of kinematics.",
+    "difficulty": "basic",
+    "options": [
+      "Kinematics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 2,
+    "question": "What is the relationship between Mechanics and dynamics?",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "dynamics",
+    "description": "A comparative question linking Mechanics and dynamics.",
+    "difficulty": "basic",
+    "options": [
+      "Dynamics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 3,
+    "question": "How does Newton's laws affect Mechanics?",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "Newton's laws",
+    "description": "A cause-and-effect question about Newton's laws and Mechanics.",
+    "difficulty": "basic",
+    "options": [
+      "Newton'S Laws",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 4,
+    "question": "Identify three key characteristics of work.",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "work",
+    "description": "A question requiring identification in Mechanics.",
+    "difficulty": "basic",
+    "options": [
+      "Work",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 5,
+    "question": "Describe the process of energy in Mechanics.",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "energy",
+    "description": "A descriptive question about energy.",
+    "difficulty": "basic",
+    "options": [
+      "Energy",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 6,
+    "question": "What are the main causes of momentum?",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "momentum",
+    "description": "A question about causation related to momentum.",
+    "difficulty": "basic",
+    "options": [
+      "Momentum",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 7,
+    "question": "Compare and contrast circular motion with related concepts.",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "circular motion",
+    "description": "A comparative analysis question on circular motion.",
+    "difficulty": "basic",
+    "options": [
+      "Circular Motion",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 8,
+    "question": "Analyze the impact of gravity on Mechanics.",
+    "subject": "mechanics",
+    "date": "2026-04-21",
+    "topic": "Mechanics",
+    "subtopic": "gravity",
+    "description": "A critical analysis question about gravity.",
+    "difficulty": "basic",
+    "options": [
+      "Gravity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 9,
+    "question": "Define wave properties and provide an example from Waves.",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "wave properties",
+    "description": "A definition and example question.",
+    "difficulty": "basic",
+    "options": [
+      "Wave Properties",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 10,
+    "question": "How has sound waves evolved within Waves?",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "sound waves",
+    "description": "A historical perspective question on sound waves.",
+    "difficulty": "basic",
+    "options": [
+      "Sound Waves",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 11,
+    "question": "What are the limitations of interference in Waves?",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "interference",
+    "description": "A critical examination of interference's limitations.",
+    "difficulty": "basic",
+    "options": [
+      "Interference",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 12,
+    "question": "Evaluate the importance of diffraction in Waves.",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "diffraction",
+    "description": "A question evaluating the importance of diffraction.",
+    "difficulty": "basic",
+    "options": [
+      "Diffraction",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 13,
+    "question": "Which factors influence standing waves?",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "standing waves",
+    "description": "A question about factors affecting standing waves.",
+    "difficulty": "basic",
+    "options": [
+      "Standing Waves",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 14,
+    "question": "How do scientists/scholars use Doppler effect in Waves?",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "Doppler effect",
+    "description": "A practical application question about Doppler effect.",
+    "difficulty": "basic",
+    "options": [
+      "Doppler Effect",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 15,
+    "question": "Which of the following best describes resonance?",
+    "subject": "waves",
+    "date": "2026-04-21",
+    "topic": "Waves",
+    "subtopic": "resonance",
+    "description": "A well-structured question about resonance.",
+    "difficulty": "basic",
+    "options": [
+      "Resonance",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 16,
+    "question": "Explain the significance of electric charge in Electricity.",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "electric charge",
+    "description": "An analytical question requiring explanation of electric charge.",
+    "difficulty": "basic",
+    "options": [
+      "Electric Charge",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 17,
+    "question": "What is the relationship between Electricity and electric field?",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "electric field",
+    "description": "A comparative question linking Electricity and electric field.",
+    "difficulty": "intermediate",
+    "options": [
+      "Electric Field",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 18,
+    "question": "How does potential difference affect Electricity?",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "potential difference",
+    "description": "A cause-and-effect question about potential difference and Electricity.",
+    "difficulty": "intermediate",
+    "options": [
+      "Potential Difference",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 19,
+    "question": "Identify three key characteristics of current.",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "current",
+    "description": "A question requiring identification in Electricity.",
+    "difficulty": "intermediate",
+    "options": [
+      "Current",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 20,
+    "question": "Describe the process of resistance in Electricity.",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "resistance",
+    "description": "A descriptive question about resistance.",
+    "difficulty": "intermediate",
+    "options": [
+      "Resistance",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 21,
+    "question": "What are the main causes of circuits?",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "circuits",
+    "description": "A question about causation related to circuits.",
+    "difficulty": "intermediate",
+    "options": [
+      "Circuits",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 22,
+    "question": "Compare and contrast Ohm's law with related concepts.",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "Ohm's law",
+    "description": "A comparative analysis question on Ohm's law.",
+    "difficulty": "intermediate",
+    "options": [
+      "Ohm'S Law",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 23,
+    "question": "Analyze the impact of magnetism on Electricity.",
+    "subject": "electricity",
+    "date": "2026-04-21",
+    "topic": "Electricity",
+    "subtopic": "magnetism",
+    "description": "A critical analysis question about magnetism.",
+    "difficulty": "intermediate",
+    "options": [
+      "Magnetism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 24,
+    "question": "Define magnetic field and provide an example from Magnetism.",
+    "subject": "magnetism",
+    "date": "2026-04-21",
+    "topic": "Magnetism",
+    "subtopic": "magnetic field",
+    "description": "A definition and example question.",
+    "difficulty": "intermediate",
+    "options": [
+      "Magnetic Field",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 25,
+    "question": "How has magnetic force evolved within Magnetism?",
+    "subject": "magnetism",
+    "date": "2026-04-21",
+    "topic": "Magnetism",
+    "subtopic": "magnetic force",
+    "description": "A historical perspective question on magnetic force.",
+    "difficulty": "intermediate",
+    "options": [
+      "Magnetic Force",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 26,
+    "question": "What are the limitations of electromagnetism in Magnetism?",
+    "subject": "magnetism",
+    "date": "2026-04-21",
+    "topic": "Magnetism",
+    "subtopic": "electromagnetism",
+    "description": "A critical examination of electromagnetism's limitations.",
+    "difficulty": "intermediate",
+    "options": [
+      "Electromagnetism",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 27,
+    "question": "Evaluate the importance of electromagnetic induction in Magnetism.",
+    "subject": "magnetism",
+    "date": "2026-04-21",
+    "topic": "Magnetism",
+    "subtopic": "electromagnetic induction",
+    "description": "A question evaluating the importance of electromagnetic induction.",
+    "difficulty": "intermediate",
+    "options": [
+      "Electromagnetic Induction",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 28,
+    "question": "Which factors influence transformers?",
+    "subject": "magnetism",
+    "date": "2026-04-21",
+    "topic": "Magnetism",
+    "subtopic": "transformers",
+    "description": "A question about factors affecting transformers.",
+    "difficulty": "intermediate",
+    "options": [
+      "Transformers",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 29,
+    "question": "How do scientists/scholars use motors in Magnetism?",
+    "subject": "magnetism",
+    "date": "2026-04-21",
+    "topic": "Magnetism",
+    "subtopic": "motors",
+    "description": "A practical application question about motors.",
+    "difficulty": "intermediate",
+    "options": [
+      "Motors",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 30,
+    "question": "Which of the following best describes reflection?",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "reflection",
+    "description": "A well-structured question about reflection.",
+    "difficulty": "intermediate",
+    "options": [
+      "Reflection",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 31,
+    "question": "Explain the significance of refraction in Optics.",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "refraction",
+    "description": "An analytical question requiring explanation of refraction.",
+    "difficulty": "intermediate",
+    "options": [
+      "Refraction",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 32,
+    "question": "What is the relationship between Optics and lenses?",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "lenses",
+    "description": "A comparative question linking Optics and lenses.",
+    "difficulty": "intermediate",
+    "options": [
+      "Lenses",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 33,
+    "question": "How does mirrors affect Optics?",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "mirrors",
+    "description": "A cause-and-effect question about mirrors and Optics.",
+    "difficulty": "intermediate",
+    "options": [
+      "Mirrors",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 34,
+    "question": "Identify three key characteristics of diffraction.",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "diffraction",
+    "description": "A question requiring identification in Optics.",
+    "difficulty": "advanced",
+    "options": [
+      "Diffraction",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 35,
+    "question": "Describe the process of interference in Optics.",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "interference",
+    "description": "A descriptive question about interference.",
+    "difficulty": "advanced",
+    "options": [
+      "Interference",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 36,
+    "question": "What are the main causes of polarization?",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "polarization",
+    "description": "A question about causation related to polarization.",
+    "difficulty": "advanced",
+    "options": [
+      "Polarization",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 37,
+    "question": "Compare and contrast color with related concepts.",
+    "subject": "optics",
+    "date": "2026-04-21",
+    "topic": "Optics",
+    "subtopic": "color",
+    "description": "A comparative analysis question on color.",
+    "difficulty": "advanced",
+    "options": [
+      "Color",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 38,
+    "question": "Analyze the impact of temperature on Thermodynamics.",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "temperature",
+    "description": "A critical analysis question about temperature.",
+    "difficulty": "advanced",
+    "options": [
+      "Temperature",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 39,
+    "question": "Define heat and provide an example from Thermodynamics.",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "heat",
+    "description": "A definition and example question.",
+    "difficulty": "advanced",
+    "options": [
+      "Heat",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 40,
+    "question": "How has specific heat evolved within Thermodynamics?",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "specific heat",
+    "description": "A historical perspective question on specific heat.",
+    "difficulty": "advanced",
+    "options": [
+      "Specific Heat",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 41,
+    "question": "What are the limitations of latent heat in Thermodynamics?",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "latent heat",
+    "description": "A critical examination of latent heat's limitations.",
+    "difficulty": "advanced",
+    "options": [
+      "Latent Heat",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 42,
+    "question": "Evaluate the importance of thermodynamic laws in Thermodynamics.",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "thermodynamic laws",
+    "description": "A question evaluating the importance of thermodynamic laws.",
+    "difficulty": "advanced",
+    "options": [
+      "Thermodynamic Laws",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 43,
+    "question": "Which factors influence entropy?",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "entropy",
+    "description": "A question about factors affecting entropy.",
+    "difficulty": "advanced",
+    "options": [
+      "Entropy",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 44,
+    "question": "How do scientists/scholars use phase changes in Thermodynamics?",
+    "subject": "thermodynamics",
+    "date": "2026-04-21",
+    "topic": "Thermodynamics",
+    "subtopic": "phase changes",
+    "description": "A practical application question about phase changes.",
+    "difficulty": "advanced",
+    "options": [
+      "Phase Changes",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 45,
+    "question": "Which of the following best describes quantum mechanics?",
+    "subject": "modern_physics",
+    "date": "2026-04-21",
+    "topic": "Modern physics",
+    "subtopic": "quantum mechanics",
+    "description": "A well-structured question about quantum mechanics.",
+    "difficulty": "advanced",
+    "options": [
+      "Quantum Mechanics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 46,
+    "question": "Explain the significance of photons in Modern physics.",
+    "subject": "modern_physics",
+    "date": "2026-04-21",
+    "topic": "Modern physics",
+    "subtopic": "photons",
+    "description": "An analytical question requiring explanation of photons.",
+    "difficulty": "advanced",
+    "options": [
+      "Photons",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 47,
+    "question": "What is the relationship between Modern physics and atomic structure?",
+    "subject": "modern_physics",
+    "date": "2026-04-21",
+    "topic": "Modern physics",
+    "subtopic": "atomic structure",
+    "description": "A comparative question linking Modern physics and atomic structure.",
+    "difficulty": "advanced",
+    "options": [
+      "Atomic Structure",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 48,
+    "question": "How does nuclear physics affect Modern physics?",
+    "subject": "modern_physics",
+    "date": "2026-04-21",
+    "topic": "Modern physics",
+    "subtopic": "nuclear physics",
+    "description": "A cause-and-effect question about nuclear physics and Modern physics.",
+    "difficulty": "advanced",
+    "options": [
+      "Nuclear Physics",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 49,
+    "question": "Identify three key characteristics of radioactivity.",
+    "subject": "modern_physics",
+    "date": "2026-04-21",
+    "topic": "Modern physics",
+    "subtopic": "radioactivity",
+    "description": "A question requiring identification in Modern physics.",
+    "difficulty": "advanced",
+    "options": [
+      "Radioactivity",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "number": 50,
+    "question": "Describe the process of mass-energy in Modern physics.",
+    "subject": "modern_physics",
+    "date": "2026-04-21",
+    "topic": "Modern physics",
+    "subtopic": "mass-energy",
+    "description": "A descriptive question about mass-energy.",
+    "difficulty": "advanced",
+    "options": [
+      "Mass-Energy",
+      "An alternative concept",
+      "Another related concept",
+      "A contrasting concept"
+    ],
+    "correct_answer": 0
+  }
+]

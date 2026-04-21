@@ -1,0 +1,3 @@
+Data Processing
+
+Covers data, information, data capture, processing methods, databases, spreadsheets, computer networks, and information security.
