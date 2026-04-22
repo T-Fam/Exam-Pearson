@@ -155,43 +155,84 @@
 
     // Save to localStorage immediately (fast)
     const list = getHistory(username);
-    list.push({
+    const attemptWithId = {
       ...attempt,
+      id: "attempt_" + Date.now() + "_" + Math.random().toString(36).substr(2, 9),
       savedAt: new Date().toISOString()
-    });
+    };
+    list.push(attemptWithId);
     try {
       localStorage.setItem(historyKey(username), JSON.stringify(list));
     } catch (e) {}
 
     // Sync to Supabase in background
-    if (window.WAECDatabase && window.WAECDatabase.isConnected && window.supabase) {
-      setTimeout(() => {
-        try {
-          const user = currentUser();
-          window.WAECDatabase.saveQuizAttempt(user.id, {
-            subject: attempt.subject,
-            topic: attempt.topic,
-            grade: attempt.grade,
-            type: attempt.type,
-            totalQuestions: attempt.totalQuestions,
-            correctAnswers: attempt.correctAnswers,
-            scorePercentage: attempt.score,
-            timeTaken: attempt.timeTaken
-          })
-            .then(() => {
-              console.log("✓ Quiz synced to Supabase");
-            })
-            .catch((err) => {
-              console.warn("Quiz sync failed (data saved locally):", err.message);
-            });
+    setTimeout(() => {
+      syncQuizToSupabase(username, attemptWithId);
+    }, 300);
+  }
 
-          window.WAECDatabase.updateUserProgress(user.id, attempt.subject, {
-            scorePercentage: attempt.score
-          });
-        } catch (e) {
-          console.warn("Background sync error:", e.message);
-        }
-      }, 500);
+  function syncQuizToSupabase(username, attempt) {
+    if (!window.supabase) return;
+
+    try {
+      const user = currentUser();
+      if (!user) return;
+
+      window.supabase
+        .from("quiz_attempts")
+        .insert([
+          {
+            id: attempt.id,
+            user_id: user.id,
+            subject: attempt.subject,
+            topic: attempt.topic || null,
+            grade: attempt.grade || null,
+            question_type: attempt.type,
+            total_questions: attempt.totalQuestions,
+            correct_answers: attempt.correctAnswers,
+            score: attempt.score,
+            time_taken_seconds: attempt.timeTaken,
+            attempted_at: attempt.savedAt
+          }
+        ])
+        .then(() => {
+          console.log("✓ Quiz synced to Supabase");
+          // Also update user_progress
+          updateProgressInSupabase(user.id, attempt.subject, attempt.score);
+        })
+        .catch((err) => {
+          console.warn("Quiz sync to Supabase failed (data saved locally):", err.message);
+        });
+    } catch (e) {
+      console.warn("Supabase sync error:", e.message);
+    }
+  }
+
+  function updateProgressInSupabase(userId, subject, score) {
+    if (!window.supabase) return;
+
+    try {
+      window.supabase
+        .from("user_progress")
+        .upsert(
+          {
+            user_id: userId,
+            subject: subject,
+            total_attempts: 1,
+            average_score: score,
+            highest_score: score,
+            last_attempt_at: new Date().toISOString()
+          },
+          { onConflict: "user_id,subject" }
+        )
+        .then(() => {
+          console.log("✓ Progress synced to Supabase");
+        })
+        .catch((err) => {
+          console.warn("Progress sync failed:", err.message);
+        });
+    } catch (e) {
+      console.warn("Progress sync error:", e.message);
     }
   }
 
