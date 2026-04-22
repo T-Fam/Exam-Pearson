@@ -14,13 +14,13 @@
 
   // ===== INITIALIZATION =====
 
-  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", async () => {
     hookAdminUI();
     if (!window.WAECAdminAuth.isAdmin()) {
       showAdminLogin();
     } else {
       showAdminDashboard();
-      loadDashboardData();
+      await loadDashboardData();
     }
   });
 
