@@ -96,34 +96,60 @@
 
   // ===== LOAD DATA =====
 
-  async function loadDashboardData() {
-    if (!window.WAECDatabase?.isConnected()) {
-      console.warn("Database not connected");
-      return;
-    }
-
+  function loadDashboardData() {
+    // Load users from localStorage (from auth-local.js)
     try {
-      // Load all users (in production, use proper API with pagination)
-      const { data: users } = await supabaseClient
-        .from("users")
-        .select("*")
-        .order("joined_at", { ascending: false });
-
-      allUsers = users || [];
-
-      // Load all attempts
-      const { data: attempts } = await supabaseClient
-        .from("quiz_attempts")
-        .select("*")
-        .order("attempted_at", { ascending: false });
-
-      allAttempts = attempts || [];
-
-      // Initial render
-      renderOverview();
-    } catch (error) {
-      console.error("Failed to load dashboard data:", error);
+      const usersRaw = localStorage.getItem("waec-users");
+      const usersObj = usersRaw ? JSON.parse(usersRaw) : {};
+      allUsers = Object.values(usersObj).map(u => ({
+        id: u.id,
+        username: u.username,
+        display_name: u.name,
+        email: u.email,
+        joined_at: u.createdAt
+      }));
+    } catch (e) {
+      allUsers = [];
     }
+
+    // Load all quiz attempts from localStorage
+    try {
+      allAttempts = [];
+      // Get all users' quiz history
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith("waec-history:")) {
+          const username = key.replace("waec-history:", "");
+          const historyRaw = localStorage.getItem(key);
+          const history = historyRaw ? JSON.parse(historyRaw) : [];
+
+          history.forEach(attempt => {
+            allAttempts.push({
+              id: attempt.id || Math.random().toString(36).substr(2, 9),
+              user_id: "local_" + username,
+              subject: attempt.subject,
+              topic: attempt.topic,
+              grade: attempt.grade,
+              question_type: attempt.type,
+              total_questions: attempt.totalQuestions,
+              correct_answers: attempt.correctAnswers,
+              score: attempt.score,
+              time_taken_seconds: attempt.timeTaken,
+              attempted_at: attempt.savedAt || new Date().toISOString()
+            });
+          });
+        }
+      });
+
+      // Sort by date descending
+      allAttempts.sort((a, b) =>
+        new Date(b.attempted_at) - new Date(a.attempted_at)
+      );
+    } catch (e) {
+      allAttempts = [];
+    }
+
+    console.log("Loaded", allUsers.length, "users and", allAttempts.length, "quiz attempts");
+    renderOverview();
   }
 
   // ===== OVERVIEW SECTION =====
