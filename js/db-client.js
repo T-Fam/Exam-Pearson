@@ -273,5 +273,9 @@
   // Initialize on load
   document.addEventListener("DOMContentLoaded", () => {
     supabaseClient = initSupabase();
+    // Expose globally for auth-simple.js
+    if (supabaseClient) {
+      window.supabase = supabaseClient;
+    }
   });
 })();

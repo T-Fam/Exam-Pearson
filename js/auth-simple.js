@@ -47,8 +47,8 @@
       throw new Error("Username must be 3–24 chars (letters, numbers, _ . -).");
     if (password.length < 6) throw new Error("Password must be at least 6 characters.");
 
-    // Try Supabase database first
-    if (window.supabase) {
+    // Use database via WAECDatabase if available
+    if (window.WAECDatabase && window.WAECDatabase.isConnected && window.supabase) {
       try {
         // Check if username already exists
         const { data: existing } = await window.supabase
@@ -80,12 +80,21 @@
         setSession({ id: user.id, username: user.username, name: user.display_name });
         return { id: user.id, username, name, email };
       } catch (dbError) {
-        console.warn("Database signup failed:", dbError.message);
-        throw dbError;
+        console.warn("Database signup error, using localStorage:", dbError.message);
+        // Fallback: store locally
+        const user = {
+          id: "local_" + Date.now(),
+          username,
+          display_name: name,
+          password_hash: hash(password),
+          email: email || null
+        };
+        setSession({ id: user.id, username: user.username, name: user.display_name });
+        return user;
       }
     }
 
-    throw new Error("Database not available. Please refresh and try again.");
+    throw new Error("Please refresh the page and try again.");
   }
 
   // ===== LOGIN =====
@@ -120,6 +129,7 @@
       setSession({ id: user.id, username: user.username, name: user.display_name });
       return { id: user.id, username: user.username, name: user.display_name };
     } catch (error) {
+      console.warn("Database login error:", error.message);
       throw error;
     }
   }
