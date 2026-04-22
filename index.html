@@ -21,7 +21,7 @@
   <!-- Chart.js for dashboard graphs -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <!-- Supabase Database Configuration -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.43.4/dist/umd/supabase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.43.4/dist/module.js"></script>
   <script>
     window.WAEC_CONFIG = {
       SUPABASE_URL: "https://exybakvrdouocjwcdrvs.supabase.co",
@@ -83,7 +83,7 @@
           <label for="signupUsername">Username</label>
           <input id="signupUsername" type="text" autocomplete="username" required />
           <label for="signupPassword">Password</label>
-          <input id="signupPassword" type="password" autocomplete="new-password" minlength="6" required />
+          <input id="signupPassword" type="password" autocomplete="new-password" minlength="4" required />
           <div id="signupError" class="auth-error hidden"></div>
           <button class="btn btn-primary" type="submit">Create account</button>
           <p class="sub" style="margin-top:14px;">Already have an account? <a href="#" id="switchToLogin">Log in</a>.</p>
@@ -361,6 +361,7 @@
   <script src="js/questions-loader.js"></script>
   <script src="js/bank/day_2026_04_20.js"></script>
   <script src="js/bank/day_2026_04_20_batch2.js"></script>
+  <script src="js/bank/day_2026_04_21.js"></script>
   <script src="js/db-client.js"></script>
   <script src="js/auth-local.js"></script>
   <script src="js/dashboard.js"></script>
