@@ -19,6 +19,19 @@
     return "h_" + (h >>> 0).toString(16);
   }
 
+  // Generate UUID v4 for Supabase compatibility
+  function generateUUID() {
+    if (typeof crypto !== "undefined" && crypto.randomUUID) {
+      return crypto.randomUUID();
+    }
+    // Fallback: generate UUID manually
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(c) {
+      const r = Math.random() * 16 | 0;
+      const v = c === "x" ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }
+
   function loadUsers() {
     try {
       const raw = localStorage.getItem(USERS_KEY);
@@ -65,7 +78,7 @@
     const users = loadUsers();
     if (users[username]) throw new Error("That username is already taken.");
 
-    const userId = "user_" + Date.now() + "_" + Math.random().toString(36).substr(2, 9);
+    const userId = generateUUID();
     const user = {
       id: userId,
       username,
@@ -157,7 +170,7 @@
     const list = getHistory(username);
     const attemptWithId = {
       ...attempt,
-      id: "attempt_" + Date.now() + "_" + Math.random().toString(36).substr(2, 9),
+      id: generateUUID(),
       savedAt: new Date().toISOString()
     };
     list.push(attemptWithId);
