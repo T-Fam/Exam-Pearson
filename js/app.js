@@ -463,18 +463,27 @@
     state.lastSavedToHistory = false;
     if (user) {
       const total = state.questions.length;
+      const numCorrect = state.type === "objective" ? correct : (total - skipped);
+      const score = state.type === "objective" ? Math.round((correct / total) * 100) : Math.round(((total - skipped) / total) * 100);
+
       const attempt = {
         takenAt: new Date().toISOString(),
         subject: state.subject,
         topic: state.topic,
         grade: state.grade,
         type: state.type,
+        // For localStorage display
         total,
-        correct: state.type === "objective" ? correct : (total - skipped),
+        correct: numCorrect,
         wrong: state.type === "objective" ? wrong : 0,
         skipped,
-        percent: state.type === "objective" ? Math.round((correct / total) * 100) : Math.round(((total - skipped) / total) * 100),
-        elapsedSec
+        percent: score,
+        elapsedSec,
+        // For Supabase sync (required for cross-device analytics)
+        totalQuestions: total,
+        correctAnswers: numCorrect,
+        score: score,
+        timeTaken: elapsedSec
       };
       window.WAECAuth.saveAttempt(user.username, attempt);
       state.lastSavedToHistory = true;
