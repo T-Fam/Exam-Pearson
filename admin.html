@@ -12,6 +12,14 @@
       SUPABASE_URL: "https://exybakvrdouocjwcdrvs.supabase.co",
       SUPABASE_ANON_KEY: "sb_publishable_2SOHqvS-IqLnlf8GNbuX4w_8_a1u3L5"
     };
+
+    // Initialize Supabase client for admin panel
+    if (window.supabase) {
+      window.supabase = window.supabase.createClient(
+        window.WAEC_CONFIG.SUPABASE_URL,
+        window.WAEC_CONFIG.SUPABASE_ANON_KEY
+      );
+    }
   </script>
 </head>
 <body data-theme="light">

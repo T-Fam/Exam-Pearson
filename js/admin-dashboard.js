@@ -96,7 +96,7 @@
 
   // ===== LOAD DATA =====
 
-  function loadDashboardData() {
+  async function loadDashboardData() {
     // Load users from localStorage (from auth-local.js)
     try {
       const usersRaw = localStorage.getItem("waec-users");
@@ -112,10 +112,12 @@
       allUsers = [];
     }
 
-    // Load all quiz attempts from localStorage
+    // Load all quiz attempts from both localStorage AND Supabase
     try {
       allAttempts = [];
-      // Get all users' quiz history
+      const attemptIds = new Set(); // Track IDs to avoid duplicates
+
+      // Get localStorage attempts
       Object.keys(localStorage).forEach(key => {
         if (key.startsWith("waec-history:")) {
           const username = key.replace("waec-history:", "");
@@ -123,7 +125,7 @@
           const history = historyRaw ? JSON.parse(historyRaw) : [];
 
           history.forEach(attempt => {
-            allAttempts.push({
+            const attempt_obj = {
               id: attempt.id || Math.random().toString(36).substr(2, 9),
               user_id: "local_" + username,
               subject: attempt.subject,
@@ -135,20 +137,60 @@
               score: attempt.score,
               time_taken_seconds: attempt.timeTaken,
               attempted_at: attempt.savedAt || new Date().toISOString()
-            });
+            };
+            allAttempts.push(attempt_obj);
+            attemptIds.add(attempt_obj.id);
           });
         }
       });
+
+      // Get Supabase attempts (cross-device data)
+      if (window.supabase) {
+        try {
+          const { data: supabaseAttempts, error } = await window.supabase
+            .from("quiz_attempts")
+            .select("*")
+            .order("attempted_at", { ascending: false });
+
+          if (!error && supabaseAttempts) {
+            supabaseAttempts.forEach(attempt => {
+              // Only add if not already in localStorage
+              if (!attemptIds.has(attempt.id)) {
+                allAttempts.push({
+                  id: attempt.id,
+                  user_id: attempt.user_id,
+                  subject: attempt.subject,
+                  topic: attempt.topic,
+                  grade: attempt.grade,
+                  question_type: attempt.question_type,
+                  total_questions: attempt.total_questions,
+                  correct_answers: attempt.correct_answers,
+                  score: attempt.score,
+                  time_taken_seconds: attempt.time_taken_seconds,
+                  attempted_at: attempt.attempted_at
+                });
+                attemptIds.add(attempt.id);
+              }
+            });
+            console.log("✓ Loaded", supabaseAttempts.length, "attempts from Supabase");
+          } else if (error) {
+            console.warn("Supabase fetch error (data from localStorage still available):", error.message);
+          }
+        } catch (e) {
+          console.warn("Supabase connection error:", e.message);
+        }
+      }
 
       // Sort by date descending
       allAttempts.sort((a, b) =>
         new Date(b.attempted_at) - new Date(a.attempted_at)
       );
     } catch (e) {
+      console.error("Error loading attempts:", e.message);
       allAttempts = [];
     }
 
-    console.log("Loaded", allUsers.length, "users and", allAttempts.length, "quiz attempts");
+    console.log("Loaded", allUsers.length, "users and", allAttempts.length, "quiz attempts (from localStorage + Supabase)");
     renderOverview();
   }
 
