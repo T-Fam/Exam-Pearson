@@ -6,20 +6,26 @@
   <title>WAEC Admin Panel</title>
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/admin.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.43.4/dist/umd/supabase.min.js"></script>
   <script>
     window.WAEC_CONFIG = {
       SUPABASE_URL: "https://exybakvrdouocjwcdrvs.supabase.co",
       SUPABASE_ANON_KEY: "sb_publishable_2SOHqvS-IqLnlf8GNbuX4w_8_a1u3L5"
     };
-
-    // Initialize Supabase client for admin panel
-    if (window.supabase) {
-      window.supabase = window.supabase.createClient(
-        window.WAEC_CONFIG.SUPABASE_URL,
-        window.WAEC_CONFIG.SUPABASE_ANON_KEY
-      );
-    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.43.4/dist/umd/supabase.min.js"></script>
+  <script>
+    // Initialize Supabase client AFTER library loads
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.supabase && window.supabase.createClient) {
+        window.supabase = window.supabase.createClient(
+          window.WAEC_CONFIG.SUPABASE_URL,
+          window.WAEC_CONFIG.SUPABASE_ANON_KEY
+        );
+        console.log("✓ Supabase client initialized for admin panel");
+      } else {
+        console.warn("Supabase library not loaded");
+      }
+    });
   </script>
 </head>
 <body data-theme="light">
