@@ -273,9 +273,12 @@
   // Initialize on load
   document.addEventListener("DOMContentLoaded", () => {
     supabaseClient = initSupabase();
-    // Expose globally for auth-simple.js
+    // Expose globally for auth-local.js
     if (supabaseClient) {
       window.supabase = supabaseClient;
+      console.log("✓ Supabase client initialized (main site)");
+    } else {
+      console.warn("⚠ Supabase client failed to initialize - quiz sync will not work");
     }
   });
 })();
