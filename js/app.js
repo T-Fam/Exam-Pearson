@@ -133,6 +133,7 @@
         window.WAECAuth.signup({
           name: $("#signupName").value,
           username: $("#signupUsername").value,
+          email: $("#signupEmail").value,
           password: $("#signupPassword").value
         });
         $("#signupForm").reset();

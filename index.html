@@ -82,8 +82,10 @@
           <input id="signupName" type="text" required />
           <label for="signupUsername">Username</label>
           <input id="signupUsername" type="text" autocomplete="username" required />
+          <label for="signupEmail">Email (optional)</label>
+          <input id="signupEmail" type="email" autocomplete="email" placeholder="you@example.com" />
           <label for="signupPassword">Password</label>
-          <input id="signupPassword" type="password" autocomplete="new-password" minlength="4" required />
+          <input id="signupPassword" type="password" autocomplete="new-password" minlength="6" required />
           <div id="signupError" class="auth-error hidden"></div>
           <button class="btn btn-primary" type="submit">Create account</button>
           <p class="sub" style="margin-top:14px;">Already have an account? <a href="#" id="switchToLogin">Log in</a>.</p>
