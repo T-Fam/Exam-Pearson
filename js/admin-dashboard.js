@@ -465,20 +465,29 @@
       return;
     }
 
-    if (!window.WAECDatabase?.isConnected()) {
-      alert("Database not connected");
-      return;
-    }
+    try {
+      // Delete from localStorage
+      const users = JSON.parse(localStorage.getItem("waec-users") || "{}");
+      let deleted = false;
+      Object.keys(users).forEach(key => {
+        if (users[key].id === userId) {
+          delete users[key];
+          deleted = true;
+        }
+      });
 
-    supabaseClient
-      .from("users")
-      .delete()
-      .eq("id", userId)
-      .then(() => {
+      if (deleted) {
+        localStorage.setItem("waec-users", JSON.stringify(users));
+        // Also delete their quiz history
+        localStorage.removeItem(`waec-history:${username}`);
         alert("User deleted");
         loadDashboardData();
-      })
-      .catch(err => alert("Error: " + err.message));
+      } else {
+        alert("User not found");
+      }
+    } catch (err) {
+      alert("Error: " + err.message);
+    }
   }
 
   // ===== EXPORT FUNCTIONS =====
